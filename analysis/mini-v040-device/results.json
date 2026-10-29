@@ -1,0 +1,36 @@
+{
+  "version": "0.4.0-mini",
+  "device_model": "25079RPDCC",
+  "package": "io.moreless.tide.rebuild",
+  "install": "adb install -r: Success; prior 0.3.2; data retained",
+  "full-only": "PASS: 8 full sounds; migration and existing custom/system settings preserved",
+  "assets": "PASS: 8 decodable sounds; Drizzle 307061 ms; system/custom prepare; invalid/oversize rejected",
+  "hold": "PASS: actual pointer short tap preserves alarm, 1.5s hold cancels alarm/audio; screenshot at 750ms",
+  "cycle": {
+    "result": "PASS",
+    "real_first_round_ms": 60036,
+    "subsequent_rounds": "accelerated test timestamps",
+    "retry_gap_ms": 240000,
+    "final_phase": "off",
+    "snooze_system_delay_ms": 1800000,
+    "stale_token": "ignored"
+  },
+  "buttons": "PASS actual touchscreen events: snooze schedules 30min; wake cancels alarm",
+  "locked_alarm": "PASS: scheduled after 30s; screen asleep; automatic WakeActivity full-screen screenshot; silentTest=true/ringPlayback=playing",
+  "icon": "PackageManager resolves supplied blue icon for app and launcher Activity; desktop initially retained Android default icon. Background launcher reload attempted; final screen locked, refresh not visually verified.",
+  "final_state": {
+    "phase": "off",
+    "trigger": 0,
+    "token": "",
+    "silentTest": false,
+    "audio_wanted": false,
+    "audio_status": "stopped",
+    "services": "none"
+  },
+  "limits": [
+    "Silent testing only; no audible listening test",
+    "No full 11-minute cycle or real 30-minute snooze wait",
+    "No overnight, reboot, Doze endurance proof",
+    "Desktop cached icon refresh remains unverified"
+  ]
+}

@@ -1,0 +1,2418 @@
+[
+  {
+    "type": "activity",
+    "exported": "true",
+    "name": "com.xiaomi.account.openauth.AuthorizeActivity",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "io.moreless.tide.XiaomiPaymentActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "exported": "true",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.activity.RouterActivity",
+    "noHistory": "true",
+    "screenOrientation": "portrait",
+    "supportsPictureInPicture": "false",
+    "theme": "@style/Theme.App.SplashScreen",
+    "windowSoftInputMode": "stateAlwaysHidden|adjustNothing",
+    "actions": [
+      "android.intent.action.MAIN",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW",
+      "android.intent.action.VIEW"
+    ],
+    "categories": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.LAUNCHER",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE",
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+    ]
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "exported": "false",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.activity.scheme.SplashActivity",
+    "screenOrientation": "behind",
+    "supportsPictureInPicture": "false",
+    "theme": "@style/Theme.Base.Tide.Launcher",
+    "windowSoftInputMode": "stateAlwaysHidden|adjustNothing",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "exported": "true",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.activity.MainActivity",
+    "screenOrientation": "behind",
+    "stateNotNeeded": "true",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "io.moreless.tide.player.activity.PlayerNotificationLaunchActivity",
+    "noHistory": "true",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleInstance",
+    "name": "io.moreless.tide.focus.FocusShortCutActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Base.Tide.Launcher",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleInstance",
+    "name": "io.moreless.tide.sleep.SleepShortCutActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Base.Tide.Launcher",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleInstance",
+    "name": "io.moreless.tide.snap.SnapShortCutActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Base.Tide.Launcher",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleInstance",
+    "name": "io.moreless.tide.breath.BreathShortCutActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Base.Tide.Launcher",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleInstance",
+    "name": "io.moreless.tide.widget.tideday.TideDayShortCutActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Base.Tide.Launcher",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleInstance",
+    "name": "io.moreless.tide.widget.daily.DailyShortCutActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Base.Tide.Launcher",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.breath.BreathActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "label": "@string/label_general_sound_scene",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.scene.SceneActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.home.longclick.HomeLongClickActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.home.cardsort.HomeCardSortActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.scene.mix.SceneMixEditActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.scene.mix.MySceneMixActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.search.SearchActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "windowSoftInputMode": "stateVisible",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.breath.share.activity.BreathReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.sleep.share.activity.SleepReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.relax.meditation.share.activity.MeditationReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.snap.share.activity.NapReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.report.BaseReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.report.streak.ReportStreakActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.sleepstory.SleepStoryReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.snap.alarm.AlarmActivity",
+    "screenOrientation": "behind",
+    "showWhenLocked": "true",
+    "theme": "@style/Theme.Tide.Host",
+    "turnScreenOn": "true",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.daily.DailyNoteActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.reminder.ReminderGuideActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "label": "@string/label_nap",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.snap.NapComposeActivity",
+    "parentActivityName": "io.moreless.tide.activity.MainActivity",
+    "permission": "com.android.alarm.permission.SET_ALARM",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.helper.view.SleepHelperActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "label": "@string/label_sleep",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.sleep.SleepComposeActivity",
+    "parentActivityName": "io.moreless.tide.activity.MainActivity",
+    "permission": "com.android.alarm.permission.SET_ALARM",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.sleep.regularity.SleepRegularityIntroActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.sleep.regularity.SleepRegularityIntroWithWeakChartActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/snore_allowing_accesses_full_screen",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.sleep.snore.activity.AllowingAccessActivityV2",
+    "parentActivityName": "io.moreless.tide.sleep.SleepComposeActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "label": "@string/snore_allowing_accesses_full_screen",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.snore.activity.SleepFeatureGuideActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/snore_allowing_accesses_full_screen",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.snore.activity.FocusFeatureGuideActivity",
+    "parentActivityName": "io.moreless.tide.focus.FocusComposeActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tool.Blur",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.focus.intro.FocusFunctionIntroActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/snore_allowing_accesses_full_screen",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.snore.activity.NapFeatureGuideActivity",
+    "parentActivityName": "io.moreless.tide.snap.NapComposeActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tool.Blur",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/snore_allowing_accesses_full_screen",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.snore.activity.BreathFeatureGuideActivity",
+    "parentActivityName": "io.moreless.tide.breath.BreathActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tool.Blur",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.player.activity.ComposePlayerTestActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "standard",
+    "name": "io.moreless.tide.player.activity.ComposeScenePlayerTestActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.player.activity.ComposeSleepStoryPlayerTestActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.player.activity.ComposeMeditationPlayerTestActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.tool.base.BaseToolContainerActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tool.Blur",
+    "windowSoftInputMode": "adjustNothing",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.goal.SleepGoalContainerActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tool.Blur",
+    "windowSoftInputMode": "adjustNothing",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.helper.library.ContentLibraryActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "standard",
+    "name": "io.moreless.tide.sleep.helper.library.fav.FavAndRecentAndDownloadedActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "label": "@string/label_focus",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.focus.FocusComposeActivity",
+    "parentActivityName": "io.moreless.tide.activity.MainActivity",
+    "screenOrientation": "unspecified",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "windowSoftInputMode": "adjustNothing",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.base.share.compose.ImageShareActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.focus.FocusTagsComposeActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.tool.focus.helper.FocusHelperActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tool.Blur",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.home.introduction.UserGuideActivity",
+    "parentActivityName": "io.moreless.tide.activity.MainActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.home.introduction.question.UserGuideActivityV2",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.member.trial.ui.MembershipTrialActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.features.FeatureActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.member.after.ui.AfterPurchasedFunctionsIntroducingActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.sleep.report.v2.ui.SleepDayReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "name": "io.moreless.tide.focus.report.v2.FocusDayReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "name": "io.moreless.tide.focus.report.v2.FocusRecordTimelineActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "name": "io.moreless.tide.relax.meditation.report.ui.MeditationDayReportActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.member.pop.ui.MiniMembershipActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.focus.tag.FocusTagAddActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/label_meditation",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.relax.meditation.MeditationActivity",
+    "parentActivityName": "io.moreless.tide.activity.MainActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/favorite_daily_note_title_label",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.daily.DailyFavoriteActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.download.DownloadActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.me.ScanQrCodeActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.invitefriend.InviteFriendActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.invitefriend.MyInvitationActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.invitefriend.InviteFriendShareActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.fragment.dialog.AnnouncementsDialogActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.me.QrCodeLoginActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/label_meditation",
+    "name": "io.moreless.tide.explore.WebViewActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.explore.group.ExploreGroupActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.explore.ExploreTopicActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.base.activity.GeneralFragmentActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.base.activity.GeneralSettingFragmentActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.sleep.settings.SleepSettingActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.snap.settings.NapSettingActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.breath.settings.BreathSettingActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.focus.FocusSettingActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "exported": "false",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.activity.LoginActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "windowSoftInputMode": "adjustResize",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|screenLayout|smallestScreenSize",
+    "name": "io.moreless.tide.activity.LoginRegisterActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "windowSoftInputMode": "adjustResize",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.account.ProfileActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.account.SecurityActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.ModifyProfileActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.DashBoardSettingActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.me.TodayAndAllActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.me.module.ModuleUsageRecordsActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.RecordListActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.RecordDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.TideCalendarActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.CountryListActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.faq.TermsOfServicesActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.faq.PrivacyPolicyActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.faq.PersonalInformationCollectedActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.faq.ThirdPartiesSDKListActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/title_optimization_guides",
+    "name": "io.moreless.tide.activity.faq.OptimizationGuidesActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/title_usage_faq",
+    "name": "io.moreless.tide.activity.faq.UsageFAQActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/title_optimization_guides",
+    "name": "io.moreless.tide.activity.faq.OptimizationGuidePagesActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/label_daily_reminders",
+    "name": "io.moreless.tide.activity.reminder.RemindersActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "label": "@string/title_add_reminder",
+    "name": "io.moreless.tide.activity.reminder.ReminderEditorActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "excludeFromRecents": "true",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.sleep.SleepLockActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "excludeFromRecents": "true",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.focus.FocusLockActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "com.theartofdev.edmodo.cropper.CropImageActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.payment.AlipayPaymentActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.activity.payment.WeChatPaymentActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.payment.GooglePlayPaymentActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.auth.WeiboAuthActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.activity.auth.GoogleAuthActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.auth.QQAuthActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.activity.auth.WeChatAuthActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.activity.PushHandlerActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [
+      "android.intent.action.VIEW"
+    ],
+    "categories": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+    ]
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.activity.AlertActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "excludeFromRecents": "true",
+    "exported": "false",
+    "launchMode": "singleTop",
+    "name": "io.moreless.tide.member.dialog.GeneralPrivilegeWrongAccountActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host.Translucent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.member.activity.MembershipFAQActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.member.activity.MembershipTermsActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.member.activity.MembershipProductDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.member.GooglePlayUnSubscriptionActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.FAQ",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.member.activity.SubscriptionManagementActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.gift.activity.GiftCardActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.gift.activity.GiftCardRedeemActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.gift.activity.GiftCardContainerActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.gift.history.GiftCardHistoriesActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.message.center.MessageCenterActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.feedback.activity.FeedbackActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "windowSoftInputMode": "adjustPan",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.activity.SceneDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.activity.MixSceneDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Dark.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.activity.AlbumDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.relax.meditation.MeditationTechniqueDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.sleepstory.SleepStoryDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize",
+    "name": "io.moreless.tide.activity.SettingActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.scene.ModuleScenesActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.debug.DebugOperationActivity",
+    "screenOrientation": "portrait",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.debug.DebugAnnounceActivity",
+    "screenOrientation": "portrait",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.debug.DebugScenesActivity",
+    "screenOrientation": "portrait",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.debug.DebugSplashActivity",
+    "screenOrientation": "portrait",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.debug.DebugDownloadActivity",
+    "screenOrientation": "portrait",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "label": "@string/app_name",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.wxapi.WXEntryActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "label": "@string/app_name",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.wxapi.WXPayEntryActivity",
+    "theme": "@style/Theme.Tide.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+    "exported": "true",
+    "launchMode": "singleTask",
+    "name": "com.alipay.sdk.app.AlipayResultActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [
+      "android.intent.action.VIEW"
+    ],
+    "categories": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+    ]
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboardHidden|orientation",
+    "name": "com.tencent.connect.common.AssistActivity",
+    "screenOrientation": "behind",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "launchMode": "singleTask",
+    "name": "com.tencent.tauth.AuthActivity",
+    "noHistory": "true",
+    "actions": [
+      "android.intent.action.VIEW"
+    ],
+    "categories": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+    ]
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.optimize.OptimizeSettingsActivityV2",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.optimize.OptimizeSettingStepActivityV2",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "excludeFromRecents": "true",
+    "name": "io.moreless.tide.fragment.account.login.LoginDialogActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/NSVDialogStyle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.redeem.RedeemActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.ModeHost",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.feedback.activity.FeedbackSuccessActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "windowSoftInputMode": "adjustPan",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.feedback.activity.FeedbackHistoriesActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "windowSoftInputMode": "adjustPan",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.feedback.activity.FeedbackHistoriesDetailActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.Host",
+    "windowSoftInputMode": "adjustPan",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.blur.BlurryActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.daily.DailyNoteShareActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.cache.activity.DiskUsageActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "io.moreless.tide.gift.edit.GiftCardGreetingsEditActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "windowSoftInputMode": "stateAlwaysVisible",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "io.moreless.tide.gift.share.GiftCardShareActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize",
+    "exported": "false",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.offline.ui.OfflineModeActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry.NoFull",
+    "windowSoftInputMode": "stateAlwaysHidden|adjustNothing",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.explore.v5.ExploreV5DemoActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry.NoFull",
+    "windowSoftInputMode": "stateAlwaysHidden|adjustNothing",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "launchMode": "singleTask",
+    "name": "io.moreless.tide.debug.TideFavAndHomeSceneDebugActivity",
+    "screenOrientation": "behind",
+    "theme": "@style/Theme.Blurry.NoFull",
+    "windowSoftInputMode": "stateAlwaysHidden|adjustNothing",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.fileprovider",
+    "exported": "false",
+    "grantUriPermissions": "true",
+    "name": "androidx.core.content.FileProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.pncfileprovider",
+    "exported": "false",
+    "grantUriPermissions": "true",
+    "name": "io.moreless.tide.provider.PickNCropFileProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.sharefileprovider",
+    "exported": "false",
+    "grantUriPermissions": "true",
+    "name": "io.moreless.tide.provider.UmengShareFileProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "foregroundServiceType": "mediaPlayback",
+    "name": "io.moreless.tide.player.service.TidePlayerService",
+    "actions": [
+      "androidx.media3.session.MediaLibraryService",
+      "androidx.media3.session.MediaSessionService",
+      "android.media.browse.MediaBrowserService"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "foregroundServiceType": "mediaPlayback",
+    "name": "io.moreless.tide.player.service.TideHomePlayerService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "true",
+    "exported": "false",
+    "name": "io.moreless.tide.alarm.receiver.AlarmTriggerReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.AlarmSchedulerInitProvider",
+    "exported": "false",
+    "initOrder": "100",
+    "name": "io.moreless.tide.alarm.AlarmSchedulerInitProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "directBootAware": "true",
+    "enabled": "true",
+    "exported": "false",
+    "name": "io.moreless.tide.alarm.directboot.DirectBootAlarmBootReceiver",
+    "actions": [
+      "android.intent.action.LOCKED_BOOT_COMPLETED",
+      "android.intent.action.BOOT_COMPLETED",
+      "android.intent.action.MY_PACKAGE_REPLACED",
+      "android.intent.action.TIME_SET",
+      "android.intent.action.TIMEZONE_CHANGED",
+      "android.intent.action.TIMEZONE_OFFSET_CHANGED",
+      "android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "directBootAware": "true",
+    "enabled": "true",
+    "exported": "false",
+    "name": "io.moreless.tide.alarm.directboot.DirectBootAlarmReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "directBootAware": "true",
+    "exported": "false",
+    "foregroundServiceType": "mediaPlayback",
+    "name": "io.moreless.tide.alarm.directboot.DirectBootAlarmService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.androidx-startup",
+    "exported": "false",
+    "name": "androidx.startup.InitializationProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "foregroundServiceType": "mediaPlayback|microphone|systemExempted|specialUse",
+    "name": "io.moreless.tide.sleep.SleepService",
+    "persistent": "true",
+    "actions": [
+      "tide.intent.action.sleep.WAKE",
+      "tide.intent.action.sleep.ALARM",
+      "tide.intent.action.sleep.SNOOZE",
+      "tide.intent.action.sleep.WAKEUP"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "foregroundServiceType": "mediaPlayback|systemExempted|specialUse",
+    "name": "io.moreless.tide.snap.SnapService",
+    "persistent": "true",
+    "actions": [
+      "tide.intent.action.nap.ALARM",
+      "tide.intent.action.nap.SNOOZE",
+      "tide.intent.action.nap.WAKEUP"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "foregroundServiceType": "specialUse",
+    "name": "io.moreless.tide.focus.FocusService",
+    "persistent": "true",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "foregroundServiceType": "specialUse",
+    "name": "io.moreless.tide.breath.BreathService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "name": "io.moreless.tide.download.DownloadService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "false",
+    "exported": "true",
+    "icon": "@drawable/ic_tile_tide",
+    "label": "@string/app_name",
+    "name": "io.moreless.tide.service.SmartTileService",
+    "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+    "actions": [
+      "android.service.quicksettings.action.QS_TILE"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "icon": "@drawable/icon_home_focus",
+    "label": "@string/label_focus",
+    "name": "io.moreless.tide.service.FocusTileService",
+    "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+    "actions": [
+      "android.service.quicksettings.action.QS_TILE"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "icon": "@drawable/icon_home_snap",
+    "label": "@string/label_nap",
+    "name": "io.moreless.tide.service.SnapTileService",
+    "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+    "actions": [
+      "android.service.quicksettings.action.QS_TILE"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "icon": "@drawable/icon_home_sleep",
+    "label": "@string/label_sleep",
+    "name": "io.moreless.tide.service.SleepTileService",
+    "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+    "actions": [
+      "android.service.quicksettings.action.QS_TILE"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "icon": "@drawable/icon_home_breathe",
+    "label": "@string/label_breath",
+    "name": "io.moreless.tide.service.BreathTileService",
+    "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+    "actions": [
+      "android.service.quicksettings.action.QS_TILE"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "name": "io.moreless.tide.survival.SurvivalService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "false",
+    "exported": "true",
+    "label": "@string/label_daily_wallpaper",
+    "name": "io.moreless.tide.service.DailyWallpaperService",
+    "permission": "android.permission.BIND_WALLPAPER",
+    "process": ":wallpaper",
+    "actions": [
+      "android.service.wallpaper.WallpaperService"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "true",
+    "exported": "false",
+    "name": "com.txusballesteros.bubbles.BubblesService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "true",
+    "exported": "false",
+    "name": "com.txusballesteros.bubbles.DialogsService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "@bool/is_enable_widget",
+    "exported": "true",
+    "label": "@string/label_daily_note_share_mask",
+    "name": "io.moreless.tide.widget.daily.DailyAppWidgetProvider",
+    "actions": [
+      "android.appwidget.action.APPWIDGET_UPDATE",
+      "android.intent.action.LOCALE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "@bool/is_enable_widget",
+    "exported": "true",
+    "label": "@string/label_daily_note_share_mask",
+    "name": "io.moreless.tide.widget.daily.DailyLargeAppWidgetProvider",
+    "actions": [
+      "android.appwidget.action.APPWIDGET_UPDATE",
+      "android.intent.action.LOCALE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "@bool/is_enable_widget",
+    "exported": "true",
+    "label": "@string/scene_appwidget_label",
+    "name": "io.moreless.tide.widget.scene.SceneAppWidgetProvider",
+    "actions": [
+      "android.appwidget.action.APPWIDGET_UPDATE",
+      "android.intent.action.LOCALE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "exported": "false",
+    "name": "io.moreless.tide.widget.scene.SceneAppWidgetActionReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "@bool/is_enable_widget",
+    "exported": "true",
+    "label": "@string/sleep_appwidget_label",
+    "name": "io.moreless.tide.widget.sleep.SleepAppWidgetProvider",
+    "actions": [
+      "android.appwidget.action.APPWIDGET_UPDATE",
+      "android.intent.action.LOCALE_CHANGED",
+      "android.intent.action.TIME_SET",
+      "android.intent.action.TIMEZONE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "name": "io.moreless.tide.widget.sleep.SleepAppWidgetService",
+    "permission": "android.permission.BIND_REMOTEVIEWS",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "@bool/is_enable_widget",
+    "exported": "true",
+    "label": "@string/nap_appwidget_label",
+    "name": "io.moreless.tide.widget.nap.NapAppWidgetProvider",
+    "actions": [
+      "android.appwidget.action.APPWIDGET_UPDATE",
+      "android.intent.action.LOCALE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "name": "io.moreless.tide.widget.nap.NapAppWidgetService",
+    "permission": "android.permission.BIND_REMOTEVIEWS",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "@bool/is_enable_widget",
+    "exported": "true",
+    "label": "@string/label_focus",
+    "name": "io.moreless.tide.widget.focus.FocusAppWidgetProvider",
+    "actions": [
+      "android.appwidget.action.APPWIDGET_UPDATE",
+      "android.appwidget.action.APPWIDGET_RESTORED",
+      "android.appwidget.action.APPWIDGET_ENABLED",
+      "android.intent.action.LOCALE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "@bool/is_enable_widget",
+    "exported": "false",
+    "label": "@string/label_relax_suggestion_daily",
+    "name": "io.moreless.tide.widget.tideday.TideDayAppWidgetReceiver",
+    "actions": [
+      "android.appwidget.action.APPWIDGET_UPDATE",
+      "android.intent.action.LOCALE_CHANGED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "name": "io.moreless.tide.widget.daily.WidgetMainProcessBroadcastReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "true",
+    "name": "com.sina.weibo.sdk.share.ShareResultActivity",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.TestActivity",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "io.moreless.tide.activity.TestFontActivity",
+    "theme": "@style/Theme.Tide.NoTitle",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "false",
+    "exported": "false",
+    "name": "androidx.appcompat.app.AppLocalesMetadataHolderService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "orientation|screenSize",
+    "exported": "false",
+    "name": "com.sina.weibo.sdk.web.WebActivity",
+    "windowSoftInputMode": "adjustResize",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboardHidden|orientation|screenSize",
+    "exported": "true",
+    "launchMode": "singleTask",
+    "name": "com.sina.weibo.sdk.share.ShareTransActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [
+      "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+    ],
+    "categories": [
+      "android.intent.category.DEFAULT"
+    ]
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.wbsdk.fileprovider",
+    "exported": "false",
+    "grantUriPermissions": "true",
+    "name": "com.sina.weibo.sdk.content.WeiboSDKFileProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.alarm.init",
+    "exported": "false",
+    "name": "io.moreless.tide.common.alarm.AlarmSchedulerInitProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "exported": "false",
+    "name": "io.moreless.tide.common.alarm.receiver.AlarmTriggerReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "excludeFromRecents": "true",
+    "exported": "true",
+    "name": "androidx.media3.session.BluetoothValidationActivity",
+    "noHistory": "true",
+    "permission": "android.permission.BLUETOOTH_PRIVILEGED",
+    "theme": "@android:style/Theme.NoDisplay",
+    "actions": [
+      "android.intent.action.VIEW"
+    ],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize",
+    "exported": "false",
+    "name": "com.android.billingclient.api.ProxyBillingActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboard|keyboardHidden|orientation|screenLayout|screenSize",
+    "exported": "false",
+    "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "excludeFromRecents": "true",
+    "exported": "false",
+    "name": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "name": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "permission": "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+    "visibleToInstantApps": "true",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "com.google.android.gms.common.api.GoogleApiActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "directBootAware": "false",
+    "enabled": "@bool/enable_system_job_service_default",
+    "exported": "true",
+    "name": "androidx.work.impl.background.systemjob.SystemJobService",
+    "permission": "android.permission.BIND_JOB_SERVICE",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "directBootAware": "false",
+    "enabled": "@bool/enable_system_foreground_service_default",
+    "exported": "false",
+    "name": "androidx.work.impl.foreground.SystemForegroundService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "directBootAware": "false",
+    "enabled": "true",
+    "exported": "false",
+    "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "directBootAware": "false",
+    "enabled": "false",
+    "exported": "false",
+    "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "actions": [
+      "android.intent.action.BOOT_COMPLETED"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "directBootAware": "false",
+    "enabled": "true",
+    "exported": "true",
+    "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "permission": "android.permission.DUMP",
+    "actions": [
+      "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "directBootAware": "true",
+    "exported": "false",
+    "name": "androidx.room.MultiInstanceInvalidationService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "directBootAware": "false",
+    "enabled": "true",
+    "exported": "true",
+    "name": "androidx.profileinstaller.ProfileInstallReceiver",
+    "permission": "android.permission.DUMP",
+    "actions": [
+      "androidx.profileinstaller.action.INSTALL_PROFILE",
+      "androidx.profileinstaller.action.SKIP_FILE",
+      "androidx.profileinstaller.action.SAVE_PROFILE",
+      "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+    ],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "com.bytedance.applog.migrate.MigrateDetectorActivity",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "enabled": "true",
+    "exported": "false",
+    "name": "com.bytedance.applog.collector.Collector",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "permission": "android.permission.BIND_JOB_SERVICE",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "exported": "false",
+    "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "name": "org.mariotaku.pickncrop.library.MediaPickerActivity",
+    "theme": "@style/Theme.PickNCrop.NoDisplay",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "com.umeng.message.component.UmengIntentService",
+    "actions": [
+      "org.agoo.android.intent.action.RECEIVE"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "com.umeng.message.component.UmengMessageReceiverService",
+    "actions": [
+      "org.android.agoo.client.MessageReceiverService"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "com.umeng.message.component.UmengMessageHandlerService",
+    "actions": [
+      "com.umeng.message.action"
+    ],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.umeng.message",
+    "exported": "false",
+    "name": "com.umeng.message.component.UmengMessageProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "exported": "false",
+    "name": "com.umeng.message.component.UmengNotificationReceiver",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "com.umeng.message.component.UmengNotificationClickActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "com.taobao.accs.ChannelService",
+    "actions": [
+      "com.taobao.accs.intent.action.START_SERVICE",
+      "com.taobao.accs.intent.action.ELECTION"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "com.taobao.accs.ChannelService$KernelService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "name": "com.taobao.accs.data.MsgDistributeService",
+    "actions": [
+      "com.taobao.accs.intent.action.RECEIVE",
+      "com.umeng.message.action.notify"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "false",
+    "name": "org.android.agoo.accs.AgooService",
+    "actions": [
+      "com.taobao.accs.intent.action.RECEIVE"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "exported": "false",
+    "name": "com.taobao.accs.ServiceReceiver",
+    "actions": [
+      "com.taobao.accs.intent.action.COMMAND",
+      "com.taobao.accs.intent.action.START_FROM_AGOO"
+    ],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "exported": "true",
+    "name": "org.android.agoo.xiaomi.MiPushBroadcastReceiver",
+    "actions": [
+      "com.xiaomi.mipush.RECEIVE_MESSAGE",
+      "com.xiaomi.mipush.MESSAGE_ARRIVED",
+      "com.xiaomi.mipush.ERROR"
+    ],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "true",
+    "exported": "false",
+    "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "true",
+    "exported": "false",
+    "name": "com.xiaomi.push.service.XMPushService",
+    "process": ":pushservice",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "true",
+    "exported": "false",
+    "name": "com.xiaomi.push.service.XMJobService",
+    "permission": "android.permission.BIND_JOB_SERVICE",
+    "process": ":pushservice",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "enabled": "true",
+    "exported": "true",
+    "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+    "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "exported": "true",
+    "name": "com.xiaomi.push.service.UploadLogSDKService",
+    "permission": "miui.permission.USE_INTERNAL_GENERAL_API",
+    "process": ":uploadLogProcess",
+    "actions": [
+      "com.xiaomi.push.UPLOAD_LOG_SDK_SERVICE"
+    ],
+    "categories": [
+      "android.intent.category.DEFAULT"
+    ]
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.push.fileprovider",
+    "exported": "false",
+    "grantUriPermissions": "true",
+    "name": "com.xiaomi.push.service.logupload.LogUploadFileProvider",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "receiver",
+    "exported": "false",
+    "name": "com.xiaomi.push.service.receivers.PingReceiver",
+    "process": ":pushservice",
+    "actions": [
+      "com.xiaomi.push.PING_TIMER"
+    ],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "enabled": "true",
+    "excludeFromRecents": "true",
+    "exported": "true",
+    "launchMode": "singleInstance",
+    "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+    "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "service",
+    "name": "com.mi.milink.sdk.client.ipc.MiLinkClientIpcCompatService",
+    "process": ":milink_ipc",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboardHidden|orientation|screenSize",
+    "name": "com.xiaomi.gamecenter.appjoint.ui.MiActivity",
+    "screenOrientation": "behind",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboardHidden|orientation|screenSize",
+    "exported": "true",
+    "name": "com.xiaomi.hy.dj.HyDjActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboardHidden|orientation|screenSize",
+    "excludeFromRecents": "true",
+    "name": "com.xiaomi.gamecenter.appjoint.ui.actlayout.CustomizedAuthorizedActivity",
+    "screenOrientation": "behind",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar.Fullscreen",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "keyboardHidden|orientation|screenSize",
+    "exported": "true",
+    "name": "com.xiaomi.gamecenter.appjoint.ui.PayListActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+    "exported": "false",
+    "name": "com.alipay.sdk.app.H5PayActivity",
+    "theme": "@android:style/Theme.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+    "exported": "false",
+    "name": "com.alipay.sdk.app.H5AuthActivity",
+    "theme": "@android:style/Theme.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+    "exported": "true",
+    "launchMode": "singleInstance",
+    "name": "com.alipay.sdk.app.PayResultActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+    "exported": "false",
+    "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+    "screenOrientation": "behind",
+    "windowSoftInputMode": "stateHidden|adjustResize",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "configChanges": "locale|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|density|layoutDirection|fontScale",
+    "exported": "false",
+    "name": "com.alipay.sdk.app.APayEntranceActivity",
+    "theme": "@android:style/Theme.Translucent.NoTitleBar",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "clearTaskOnLaunch": "true",
+    "name": "com.journeyapps.barcodescanner.CaptureActivity",
+    "screenOrientation": "sensorLandscape",
+    "stateNotNeeded": "true",
+    "theme": "@style/zxing_CaptureTheme",
+    "windowSoftInputMode": "stateAlwaysHidden",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "activity",
+    "exported": "false",
+    "name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "stateNotNeeded": "true",
+    "theme": "@style/Theme.PlayCore.Transparent",
+    "actions": [],
+    "categories": []
+  },
+  {
+    "type": "provider",
+    "authorities": "io.moreless.tide.SentryNdkPreloadProvider",
+    "exported": "false",
+    "initOrder": "2000000000",
+    "name": "io.sentry.ndk.SentryNdkPreloadProvider",
+    "actions": [],
+    "categories": []
+  }
+]

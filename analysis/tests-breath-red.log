@@ -1,0 +1,16 @@
+潮汐/TideRebuild/tests/CoreTest.java:3: 错误: 找不到符号
+import io.moreless.tide.rebuild.core.BreathScript;
+                                    ^
+  符号:   类 BreathScript
+  位置: 程序包 io.moreless.tide.rebuild.core
+潮汐/TideRebuild/tests/CoreTest.java:15: 错误: 找不到符号
+  BreathTimeline balance=BreathScript.standard("4-0-4-0",new String[]{"break","inhale","break","exhale","break"},new double[]{0.4,4,0.5,4,0.4},6,1);
+                         ^
+  符号:   变量 BreathScript
+  位置: 类 CoreTest
+潮汐/TideRebuild/tests/CoreTest.java:17: 错误: 找不到符号
+  BreathTimeline box=BreathScript.standard("box",new String[]{"inhale","hold","exhale","hold"},new double[]{4,4,4,4},3.75,1);
+                     ^
+  符号:   变量 BreathScript
+  位置: 类 CoreTest
+3 个错误

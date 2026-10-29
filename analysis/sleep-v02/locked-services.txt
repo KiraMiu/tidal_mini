@@ -1,0 +1,36 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{b1ec09c u0 io.moreless.tide.rebuild/.AudioService c:io.moreless.tide.rebuild}
+    intent={act=play cmp=io.moreless.tide.rebuild/.AudioService}
+    packageName=io.moreless.tide.rebuild
+    processName=io.moreless.tide.rebuild
+    targetSdkVersion=34
+    baseDir=/data/app/~~I_5Ly_o7VuIsS7D3iwxlfw==/io.moreless.tide.rebuild-S5yzryFAbdNwepRJdgymFw==/base.apk
+    dataDir=/data/user/0/io.moreless.tide.rebuild
+    app=ProcessRecord{cc5e6c5 10802:io.moreless.tide.rebuild/u0a57}
+    useNewWiuLogic_forCapabilities()=false
+    useNewWiuLogic_forStart()=false
+    useNewBfslLogic()=false
+    mAllowWiu_noBinding=PROC_STATE_TOP
+    mAllowWiu_inBindService=DENIED
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_TOP
+    getFgsAllowWiu_new=PROC_STATE_TOP
+    getFgsAllowWiu_forStart=PROC_STATE_TOP
+    getFgsAllowWiu_forCapabilities=PROC_STATE_TOP
+    allowUiJobScheduling=true
+    recentCallingPackage=io.moreless.tide.rebuild
+    recentCallingUid=10057
+    mAllowStart_noBinding=PROC_STATE_TOP
+    mAllowStart_inBindService=DENIED
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_TOP
+    getFgsAllowStart_new=PROC_STATE_TOP
+    getFgsAllowStart=PROC_STATE_TOP
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: io.moreless.tide.rebuild; callingUid: 10057; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { act=play xflg=0x4 cmp=io.moreless.tide.rebuild/.AudioService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; allowWiu:12; targetSdkVersion:34; callerTargetSdkVersion:34; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+    isForeground=true foregroundId=1 types=0x00000002 foregroundNoti=Notification(channel=audio shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|NO_CLEAR|FOREGROUND_SERVICE|NO_DISMISS color=0x00000000 category=transport actions=2 vis=PRIVATE focusType=null)
+    createTime=-19s56ms startingBgTimeout=--
+    lastActivity=-19s53ms restartTime=-19s53ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+ startCommandResult=1

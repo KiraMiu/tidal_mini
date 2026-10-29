@@ -1,0 +1,6 @@
+INSTRUMENTATION_RESULT: failure=java.lang.AssertionError: launcher did not route to ringing activity
+	at io.moreless.tide.rebuild.AlarmChecks.require(AlarmChecks.java:14)
+	at io.moreless.tide.rebuild.AlarmChecks.onStart(AlarmChecks.java:31)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2661)
+
+INSTRUMENTATION_CODE: 0

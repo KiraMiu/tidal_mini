@@ -1,0 +1,7 @@
+Starting: Intent { cmp=io.moreless.tide.rebuild/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: io.moreless.tide.rebuild/.MainActivity
+TotalTime: 225
+WaitTime: 230
+Complete

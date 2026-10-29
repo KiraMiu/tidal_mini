@@ -1,0 +1,20 @@
+{
+  "phase": "ringing",
+  "sleepStarted": "1793181285047",
+  "silentTest": "true",
+  "sceneFile": "liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+  "playingRingtone": "光",
+  "sceneName": "雨天",
+  "ringtoneName": "光",
+  "ringUntil": "1793181915133",
+  "ringtone": "alarm_1.m4a",
+  "trigger": "1793181315038",
+  "token": "b1822b50-d81a-4898-a83f-1f0fe58a515d",
+  "minute": "14",
+  "ringtoneKind": "asset",
+  "hour": "17",
+  "ringSource": "selected",
+  "ringPlayback": "playing",
+  "ringtoneUri": "content://settings/system/alarm_alert",
+  "ringtoneFile": null
+}

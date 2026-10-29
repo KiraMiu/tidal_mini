@@ -1,0 +1,33 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'io.moreless.tide.rebuild'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'io.moreless.tide.rebuild'
+        minSdk 24
+        targetSdk 34
+        versionCode 8
+        versionName '0.4.2-mini'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+    androidResources { noCompress += ['m4a', 'mp3'] }
+    signingConfigs {
+        debug {
+            storeFile rootProject.file('build/local-debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+}
+// Both build paths use the same disposable development identity, never the original app key.
+def debugKey = rootProject.file('build/local-debug.keystore')
+tasks.register('createLocalDebugKey', Exec) {
+    onlyIf { !debugKey.exists() }
+    doFirst { debugKey.parentFile.mkdirs() }
+    commandLine "${System.getProperty('java.home')}/bin/keytool", '-genkeypair',
+        '-keystore', debugKey.absolutePath, '-storepass', 'android', '-keypass', 'android',
+        '-alias', 'androiddebugkey', '-dname', 'CN=Tide Rebuild Debug',
+        '-keyalg', 'RSA', '-keysize', '2048', '-validity', '3650'
+}
+tasks.configureEach { task -> if (task.name == 'validateSigningDebug') task.dependsOn('createLocalDebugKey') }

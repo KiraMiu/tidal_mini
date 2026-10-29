@@ -1,0 +1,6 @@
+INSTRUMENTATION_RESULT: custom_and_system=prepared successfully without starting playback
+INSTRUMENTATION_RESULT: decodable_sounds=21
+INSTRUMENTATION_RESULT: drizzle_duration_ms=307061
+INSTRUMENTATION_RESULT: invalid_and_oversized=rejected without changing selected sound or retaining candidates
+INSTRUMENTATION_RESULT: result=PASS assets
+INSTRUMENTATION_CODE: -1

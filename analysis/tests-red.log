@@ -1,0 +1,42 @@
+潮汐/TideRebuild/tests/CoreTest.java:1: 错误: 程序包io.moreless.tide.rebuild.core不存在
+import io.moreless.tide.rebuild.core.SessionTimer;
+                                    ^
+潮汐/TideRebuild/tests/CoreTest.java:2: 错误: 程序包io.moreless.tide.rebuild.core不存在
+import io.moreless.tide.rebuild.core.BreathTimeline;
+                                    ^
+潮汐/TideRebuild/tests/CoreTest.java:6: 错误: 找不到符号
+  SessionTimer t=new SessionTimer(60000); t.start(1000);eq(30000,t.remaining(31000));
+  ^
+  符号:   类 SessionTimer
+  位置: 类 CoreTest
+潮汐/TideRebuild/tests/CoreTest.java:6: 错误: 找不到符号
+  SessionTimer t=new SessionTimer(60000); t.start(1000);eq(30000,t.remaining(31000));
+                     ^
+  符号:   类 SessionTimer
+  位置: 类 CoreTest
+潮汐/TideRebuild/tests/CoreTest.java:10: 错误: 找不到符号
+  SessionTimer restored=SessionTimer.restore(60000,20000,false,0);eq(20000,restored.remaining(5));
+  ^
+  符号:   类 SessionTimer
+  位置: 类 CoreTest
+潮汐/TideRebuild/tests/CoreTest.java:10: 错误: 找不到符号
+  SessionTimer restored=SessionTimer.restore(60000,20000,false,0);eq(20000,restored.remaining(5));
+                        ^
+  符号:   变量 SessionTimer
+  位置: 类 CoreTest
+潮汐/TideRebuild/tests/CoreTest.java:12: 错误: 找不到符号
+  BreathTimeline b=new BreathTimeline(new String[]{"inhale","hold","exhale"},new long[]{4000,7000,8000});
+  ^
+  符号:   类 BreathTimeline
+  位置: 类 CoreTest
+潮汐/TideRebuild/tests/CoreTest.java:12: 错误: 找不到符号
+  BreathTimeline b=new BreathTimeline(new String[]{"inhale","hold","exhale"},new long[]{4000,7000,8000});
+                       ^
+  符号:   类 BreathTimeline
+  位置: 类 CoreTest
+潮汐/TideRebuild/tests/CoreTest.java:14: 错误: 找不到符号
+  boolean rejected=false;try{new SessionTimer(0);}catch(IllegalArgumentException e){rejected=true;}if(!rejected)throw new AssertionError("invalid duration");
+                                 ^
+  符号:   类 SessionTimer
+  位置: 类 CoreTest
+9 个错误

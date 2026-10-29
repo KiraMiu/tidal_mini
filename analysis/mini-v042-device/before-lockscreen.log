@@ -1,0 +1,40 @@
+10-28 20:18:54.861  1750  2362 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:18:56.411  1750  6399 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:18:56.519  1750  3120 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:18:57.355  1750  1821 V ActivityTaskManager: wms.updateAllDrawn allDrawn: ActivityRecord{117232735 u0 io.moreless.tide.rebuild/.SleepActivity t1178} interesting=2 drawn=2
+10-28 20:18:59.939  1750  3118 I ActivityTaskManager: START u0 {act=android.settings.REQUEST_SCHEDULE_EXACT_ALARM dat=package: xflg=0x4 cmp=com.android.settings/.Settings$AlarmsAndRemindersAppActivity} with LAUNCH_MULTIPLE from uid 10061 from pid 26387 callingPackage io.moreless.tide.rebuild (sr=117232735) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-28 20:18:59.950  1750  2588 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:18:59.965  1750  6547 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:19:00.081  1750  6547 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:19:00.181  1750  3118 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:19:02.012  1750  2590 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:19:02.569  1750  3117 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:20:12.089  1750  2590 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:20:12.090  1750  2590 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:20:12.127  1750  3118 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:20:12.128  1750  3117 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:03.552  1750  2589 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:03.563  1750  2589 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:03.575  1750  6008 I ActivityTaskManager: START u0 {flg=0x24000000 xflg=0x4 cmp=io.moreless.tide.rebuild/.WakeActivity (has extras)} with LAUNCH_SINGLE_TOP from uid 10061 from pid 26387 callingPackage io.moreless.tide.rebuild (sr=117232735) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-28 20:21:03.600  1750  2575 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:03.606  1750  2868 D ActivityTaskManager: setShowWhenLocked from true to true for ActivityRecord{106719318 u0 io.moreless.tide.rebuild/.WakeActivity t1178}
+10-28 20:21:03.609  1750  2575 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:03.610  1750  1771 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:03.610  1750  2575 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:03.663  1750  1778 I ActivityTaskManager: Displayed io.moreless.tide.rebuild/.WakeActivity for user 0: +90ms
+10-28 20:21:05.427  1750  4952 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:05.665  1750  1771 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{106719318 u0 io.moreless.tide.rebuild/.WakeActivity t1178 f}}
+10-28 20:21:42.147  1750  4952 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:42.156  1750  4952 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:42.161  1750  2868 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:42.193  1750  1771 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:43.912  1750  1821 V ActivityTaskManager: wms.updateAllDrawn allDrawn: ActivityRecord{117232735 u0 io.moreless.tide.rebuild/.SleepActivity t1178} interesting=2 drawn=2
+10-28 20:21:45.782  1750  2537 I ActivityTaskManager: START u0 {act=android.settings.MANAGE_APP_USE_FULL_SCREEN_INTENT dat=package: xflg=0x4 cmp=com.android.settings/.AppManageFullScreenIntent} with LAUNCH_MULTIPLE from uid 10061 from pid 26387 callingPackage io.moreless.tide.rebuild (sr=117232735) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-28 20:21:45.794  1750  3125 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:45.802  1750  3101 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:45.818  1750  3101 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:45.853  1750  6547 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:45.861  1750  3125 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:48.549  1750  3144 I ActivityTaskManager: moveTaskToFront: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild} caller trace:com.android.server.wm.TaskDisplayArea.onTaskMoved:461 com.android.server.wm.Task.updateTaskMovement:1762 com.android.server.wm.TaskDisplayArea.positionChildTaskAt:425 com.android.server.wm.TaskDisplayArea.positionChildAt:386 com.android.server.wm.Task.moveToFront:6298 com.android.server.wm.Task.moveToFront:6268 com.android.server.wm.Task.moveToFront:6258 com.android.server.wm.Task.adjustFocusToNextFocusableTask:3496 com.android.server.wm.ActivityRecord.finishIfPossible:4288 com.android.server.wm.ActivityRecord.finishIfPossible:4196 
+10-28 20:21:48.612  1750  1771 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}
+10-28 20:21:48.614  1750  4952 D ActivityTaskManager:  setSkipCaptureLayers tr: Task{61f130a #1178 type=standard A=10061:io.moreless.tide.rebuild}

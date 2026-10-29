@@ -1,0 +1,49 @@
+潮汐/TideRebuild/tests/SleepTest.java:1: 错误: 程序包io.moreless.tide.rebuild.core不存在
+import io.moreless.tide.rebuild.core.SleepTime;
+                                    ^
+潮汐/TideRebuild/tests/SleepTest.java:8: 错误: 找不到符号
+  eq(at(z,2026,10,29,7,30),SleepTime.next(at(z,2026,10,28,22,0),7,30,z));
+                           ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:9: 错误: 找不到符号
+  eq(at(z,2026,10,28,7,30),SleepTime.next(at(z,2026,10,28,6,0),7,30,z));
+                           ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:10: 错误: 找不到符号
+  eq(at(z,2027,1,1,7,0),SleepTime.next(at(z,2026,12,31,23,0),7,0,z));
+                        ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:12: 错误: 找不到符号
+  eq(at(ny,2026,3,8,7,0),SleepTime.next(at(ny,2026,3,7,22,0),7,0,ny));
+                         ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:13: 错误: 找不到符号
+  eq(at(z,2026,10,29,7,30),SleepTime.next(at(z,2026,10,28,7,30),7,30,z));
+                           ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:14: 错误: 找不到符号
+  if(SleepTime.shouldFire("old","new",1000,1000))throw new AssertionError("stale alarm");
+     ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:15: 错误: 找不到符号
+  if(SleepTime.shouldFire("new","new",1000,500))throw new AssertionError("early alarm");
+     ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:16: 错误: 找不到符号
+  if(!SleepTime.shouldFire("new","new",1000,1100))throw new AssertionError("valid alarm");
+      ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+潮汐/TideRebuild/tests/SleepTest.java:17: 错误: 找不到符号
+  if(SleepTime.shouldFire("new","new",1000,901001))throw new AssertionError("expired alarm");
+     ^
+  符号:   变量 SleepTime
+  位置: 类 SleepTest
+10 个错误

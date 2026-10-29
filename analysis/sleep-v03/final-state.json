@@ -1,0 +1,17 @@
+{
+  "phase": "off",
+  "sleepStarted": "1793181285047",
+  "silentTest": "false",
+  "sceneFile": "liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+  "sceneName": "雨天",
+  "ringtoneName": "光",
+  "ringUntil": "0",
+  "ringtone": "alarm_1.m4a",
+  "trigger": "0",
+  "token": null,
+  "minute": "14",
+  "ringtoneKind": "asset",
+  "hour": "17",
+  "ringtoneUri": "content://settings/system/alarm_alert",
+  "ringtoneFile": null
+}

@@ -1,0 +1,24 @@
+{
+  "source_page": "https://tide.fm/share/scenes/5c481d18cdcaa900064e4cf2",
+  "resource_hash": "lnSNpbE0TI_HLFPpdeSkoeIvGjvh",
+  "expected_bytes": 12339888,
+  "actual_bytes": 12339888,
+  "sha256": "c3fb1a1b034a2bfb157b52fc3ac465b84233694d27239201bb6f3cee66f92270",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration": "307.060680",
+      "size": "12339888"
+    }
+  },
+  "note": "Original resource served by the official public share-page playback URL; signature not stored in provenance."
+}

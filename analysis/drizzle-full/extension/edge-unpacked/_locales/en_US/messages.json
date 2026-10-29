@@ -1,0 +1,598 @@
+{
+  "serverLang": {
+    "message": "en",
+    "description": "服务器对应语言的key"
+  },
+  "appName": {
+    "message": "Tide - Focus Timer & White Noise",
+    "description": "潮汐插件名字"
+  },
+  "appDesc": {
+    "message": "Tide offers you the best focus timer with natural white noise. Stay focused and increase productivity with Tide!",
+    "description": "潮汐插件名字"
+  },
+  "browserIconTitle": {
+    "message": "Tide",
+    "description": "工具栏图标tooltips"
+  },
+  "badgeTestRest": {
+    "message": "REST",
+    "description": "休息开始后，浏览器工具栏 - 潮汐插件的Badge，不能超过四个字符"
+  },
+  "timerBreakStageTips": {
+    "message": "Break Mode",
+    "description": "长休息开始后，倒计时下方出现的长休息标识"
+  },
+  "timerStartFocusBtn": {
+    "message": "FOCUS",
+    "description": "番茄钟开始专注按钮"
+  },
+  "timerStartBreakBtn": {
+    "message": "BREAK",
+    "description": "番茄钟开始休息按钮"
+  },
+  "timerSkipBtn": {
+    "message": "SKIP",
+    "description": "番茄钟跳过休息的按钮"
+  },
+  "timerPauseBtn": {
+    "message": "PAUSE",
+    "description": "番茄钟暂停按钮"
+  },
+  "timerContinueBtn": {
+    "message": "CONTINUE",
+    "description": "番茄钟继续按钮"
+  },
+  "timerStopBtn": {
+    "message": "STOP",
+    "description": "番茄钟停止按钮"
+  },
+  "today": {
+    "message": "Today",
+    "description": "番茄钟底部今日专注次数的'今日'"
+  },
+  "hour": {
+    "message": "hour",
+    "description": "单数'小时'"
+  },
+  "hours": {
+    "message": "hours",
+    "description": "复数'小时'"
+  },
+  "min": {
+    "message": "min",
+    "description": "单数'分钟'"
+  },
+  "mins": {
+    "message": "mins",
+    "description": "复数'分钟'"
+  },
+  "simplifiedHr": {
+    "message": "hr",
+    "description": "简写的单数'小时'"
+  },
+  "simplifiedHrs": {
+    "message": "hrs",
+    "description": "简写的复数'小时'"
+  },
+  "simplifiedMin": {
+    "message": "min",
+    "description": "简写的单数'分钟'"
+  },
+  "simplifiedMins": {
+    "message": "m",
+    "description": "简写的复数'分钟'"
+  },
+  "simplifiedSec": {
+    "message": "sec",
+    "description": "简写的'秒钟'"
+  },
+  "simplifiedSecs": {
+    "message": "secs",
+    "description": "简写的复数'秒钟'"
+  },
+  "durationInputPlaceholder": {
+    "message": "Customize time",
+    "description": "专注时长设置 自定义时间输入的Placeholder"
+  },
+  "durationInputConfirmBtn": {
+    "message": "OK",
+    "description": "专注时长设置 自定义时间输入的确认按钮"
+  },
+  "optionsPageTitleInfos": {
+    "message": "Tide - Statistics",
+    "description": "Options页标题 - 统计"
+  },
+  "optionsPageTitleSettings": {
+    "message": "Tide - Settings",
+    "description": "Options页标题 - 设置"
+  },
+  "navStatistics": {
+    "message": "Statistics",
+    "description": "导航 - 统计"
+  },
+  "navSettings": {
+    "message": "Settings",
+    "description": "导航 - 设置"
+  },
+  "privacyPolicyLink": {
+    "message": "https:\/\/tide.fm\/pages\/chrome\/privacy-policy\/en.html",
+    "description": "隐私协议地址，不用翻译"
+  },
+  "privacyPolicy": {
+    "message": "Privacy Policy",
+    "description": "隐私协议"
+  },
+  "terms": {
+    "message": "Terms of Service",
+    "description": "服务条款"
+  },
+  "feedback": {
+    "message": "Feedback",
+    "description": "意见反馈"
+  },
+  "subject": {
+    "message": "Tide for Chrome - Feedback",
+    "description": "意见反馈邮件标题"
+  },
+  "logoutDialogTitle": {
+    "message": "Confirm Logout",
+    "description": "注销弹框 - 标题"
+  },
+  "logoutDialogContent": {
+    "message": "You will not be able to sync focus records after logout",
+    "description": "注销弹框 - 内容"
+  },
+  "logoutDialogConfirmBtn": {
+    "message": "Logout",
+    "description": "注销弹框 - 确定按钮"
+  },
+  "logoutDialogCancelBtn": {
+    "message": "Cancel",
+    "description": "注销弹框 - 取消按钮"
+  },
+  "loginBtn": {
+    "message": "LOG IN",
+    "description": "登录按钮"
+  },
+  "logoutBtn": {
+    "message": "LOG OUT",
+    "description": "登出按钮"
+  },
+  "greeting": {
+    "message": "Welcome to Tide",
+    "description": "未登录时的问候语"
+  },
+  "greetingDesc": {
+    "message": "Be calm and mindful with Tide",
+    "description": "未登录时的问候语下方小字"
+  },
+  "loginedDesc": {
+    "message": "Joined Tide for $days$ days",
+    "description": "登录后的用户昵称下方小字",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "365"
+      }
+    }
+  },
+  "todayFocusTimes": {
+    "message": "Today's Focus",
+    "description": "专注统计 - 今日次数"
+  },
+  "todayFocusDurations": {
+    "message": "Today's Focus Time",
+    "description": "专注统计 - 今日总次数"
+  },
+  "weeklyFocusTimes": {
+    "message": "Weekly Focus",
+    "description": "专注统计 - 本周次数"
+  },
+  "weeklyFocusDurations": {
+    "message": "Weekly Focus Time",
+    "description": "专注统计 - 本周时长"
+  },
+  "totalFocusTimes": {
+    "message": "Total Focus",
+    "description": "专注统计 - 总次数"
+  },
+  "totalFocusDurations": {
+    "message": "Total Focus Time",
+    "description": "专注统计 - 总时长"
+  },
+  "pageHistoriesTitle": {
+    "message": "Browsing Time",
+    "description": "网站浏览记录 - 标题"
+  },
+  "pageHistoriesDesc": {
+    "message": "Tracks time spent on websites, giving you an accurate picture of your day.",
+    "description": "网站浏览记录 - 描述"
+  },
+  "pageHistoriesEmpty": {
+    "message": "There is no time logged for today",
+    "description": "网站浏览记录 - 空记录"
+  },
+  "pageHistoriesToday": {
+    "message": "Today",
+    "description": "浏览日期 - 今天"
+  },
+  "pageHistoriesYesterday": {
+    "message": "Yesterday",
+    "description": "浏览日期 - 昨天"
+  },
+  "pageHistoriesDuration": {
+    "message": "$duration$",
+    "description": "每天的总时长",
+    "placeholders": {
+      "duration": {
+        "content": "$1",
+        "example": "12 小时 30 分钟"
+      }
+    }
+  },
+  "pageHistoriesLoading": {
+    "message": "Loading",
+    "description": "从服务器获取 网站浏览记录 时，底部的loading文案"
+  },
+  "pageHistoriesMore": {
+    "message": "See More",
+    "description": "网站浏览记录界面底部 用于查看往期浏览记录的按钮"
+  },
+  "pageHistoriesNoMore": {
+    "message": "No More",
+    "description": "网站浏览记录界面底部 没有更多浏览记录时，会用此文案 替换掉 往期浏览记录的按钮"
+  },
+  "settingsWorkModeTitle": {
+    "message": "Work Mode",
+    "description": "高效模式 - 标题"
+  },
+  "settingsWorkModeDesc": {
+    "message": "Based on the Pomodoro Technique, Tide Focus allows you to set the concentration duration and break time, improving your abilities to stay focus and ignore distraction.",
+    "description": "高效模式 - 描述"
+  },
+  "sectionWorkModeTitle": {
+    "message": "Work Mode",
+    "description": "模块设置 - 高效模式 - 标题"
+  },
+  "sectionAtomaticTitle": {
+    "message": "Auto-Start",
+    "description": "模块设置 - 自动化 - 标题"
+  },
+  "sectionWorkModeSwitch_focusDuration": {
+    "message": "Focus Duration",
+    "description": "模块设置 - 专注时长"
+  },
+  "sectionWorkModeSwitch_breakDuration": {
+    "message": "Short Break Duration",
+    "description": "模块设置 - 短休息时长"
+  },
+  "sectionWorkModeSwitch_longBreakDuration": {
+    "message": "Long Break Duration",
+    "description": "模块设置 - 长休息专注时长"
+  },
+  "sectionWorkModeSwitch_longBreakFrequency": {
+    "message": "Long Break Every",
+    "description": "模块设置 - 多久一次长休息"
+  },
+  "sectionAtomatic_autoFocus": {
+    "message": "Next Focus",
+    "description": "模块设置 - 自动休息"
+  },
+  "sectionAtomatic_autoBreak": {
+    "message": "Break",
+    "description": "模块设置 - 自动休息"
+  },
+  "sectionAtomatic_autoFocusCycle": {
+    "message": "Auto-Focus Cycle",
+    "description": "模块设置 - 自动专注周期"
+  },
+  "settingsImmersiveModeTitle": {
+    "message": "Immersive Mode",
+    "description": "沉浸模式 - 标题"
+  },
+  "settingsImmersiveModeDesc": {
+    "message": "Block distracting websites when you're focusing.",
+    "description": "沉浸模式 - 描述"
+  },
+  "sectionWhiteListTitle": {
+    "message": "Whitelist",
+    "description": "模块设置 - 白名单 - 标题"
+  },
+  "sectionWhiteListDesc": {
+    "message": "Block distracting websites and browse what you really need during focus time",
+    "description": "模块设置 - 白名单 - 描述"
+  },
+  "sectionWhiteListAddBtn": {
+    "message": "Add",
+    "description": "模块设置 - 白名单 - 新增按钮"
+  },
+  "editWhiteListItem": {
+    "message": "Edit",
+    "description": "模块设置 - 白名单 - 条目 - 菜单 - 编辑"
+  },
+  "delWhiteListItem": {
+    "message": "Delete",
+    "description": "模块设置 - 白名单 - 条目 - 菜单 - 删除"
+  },
+  "addWhiteListItemDialogTitle": {
+    "message": "Add Whitelist Website",
+    "description": "弹框 - 标题 - 新增白名单条目"
+  },
+  "editWhiteListItemDialogTitle": {
+    "message": "Edit Whitelist Website",
+    "description": "弹框 - 标题 - 编辑白名单条目"
+  },
+  "delWhiteListItemDialogTitle": {
+    "message": "Are you sure to delete this whitelist website?",
+    "description": "弹框 - 标题 - 删除白名单条目"
+  },
+  "whiteListItemDialogCancelBtn": {
+    "message": "Cancel",
+    "description": "弹框 - 标题 - 取消按钮"
+  },
+  "addWhiteListItemDialogConfirmBtn": {
+    "message": "Add",
+    "description": "弹框 - 标题 - 确定新增白名单条目"
+  },
+  "editWhiteListItemDialogConfirmBtn": {
+    "message": "Save",
+    "description": "弹框 - 标题 - 确定编辑白名单条目"
+  },
+  "delWhiteListItemDialogConfirmBtn": {
+    "message": "Delete",
+    "description": "弹框 - 标题 - 确定删除白名单条目"
+  },
+  "whiteListItemInputPlaceholder": {
+    "message": "URL",
+    "description": "弹框 - 新增白名单条目 - 输入框Placeholder"
+  },
+  "invalidDomain": {
+    "message": "Please enter a correct URL",
+    "description": "弹框 - 新增白名单条目 - 域名错误"
+  },
+  "customDuration": {
+    "message": "Custom Duration",
+    "description": "当使用自定义时长时，模块页 - 下拉框"
+  },
+  "defaultDuration": {
+    "message": "Default Duration",
+    "description": "当使用自定义时长时，模块页 - 下拉框"
+  },
+  "unitMin": {
+    "message": "min",
+    "description": "模块页 - 下拉框 - 分钟数单位"
+  },
+  "unitFocus": {
+    "message": "focus",
+    "description": "模块页 - 下拉框 - 单位专注"
+  },
+  "unitTimes": {
+    "message": "time",
+    "description": "模块页 - 下拉框 - 单位次数"
+  },
+  "never": {
+    "message": "Never",
+    "description": "模块页 - 下拉框 - 从不"
+  },
+  "unlimited": {
+    "message": "Unlimited",
+    "description": "模块页 - 下拉框 - 无限"
+  },
+  "tipsWorkModeTitle": {
+    "message": "What is Work Mode？",
+    "description": "高效模式解读弹框 - 标题"
+  },
+  "tipsWorkModeContent": {
+    "message": "Pomorodo Technique suggests taking a short break after a period of work. Such method has been proved to improve overall efficiency.",
+    "description": "高效模式解读弹框 - 内容"
+  },
+  "tipsWorkModeButton": {
+    "message": "OK",
+    "description": "高效模式解读弹框 - 按钮"
+  },
+  "tipsImmersiveModeTitle": {
+    "message": "What is Immersive Mode?",
+    "description": "沉浸模式解读弹框 - 标题"
+  },
+  "tipsImmersiveModeContent": {
+    "message": "When immersive mode is enabled, switching to other websites will interrupt current focus section.",
+    "description": "沉浸模式解读弹框 - 内容"
+  },
+  "tipsImmersiveModeButton": {
+    "message": "OK",
+    "description": "沉浸模式解读弹框 - 确定按钮"
+  },
+  "blockCloseBtn": {
+    "message": "KEEP FOCUS",
+    "description": "拦截界面 - 关闭tab按钮"
+  },
+  "blockGiveupBtn": {
+    "message": "GIVE UP",
+    "description": "拦截界面 - 放弃按钮"
+  },
+  "blockConfirmGiveupText": {
+    "message": "Are you sure to give up your efforts? You are almost there!",
+    "description": "拦截界面 - 确认放弃弹框 - 内容"
+  },
+  "blockConfirmGiveupCancelBtn": {
+    "message": "Cancel",
+    "description": "拦截界面 - 确认放弃弹框 - 取消按钮"
+  },
+  "blockConfirmGiveupConfirmBtn": {
+    "message": "Giveup",
+    "description": "拦截界面 - 确认放弃弹框 - 确认按钮"
+  },
+  "notifications_focus_finish_title_0": {
+    "message": "$duration$ focus finished! 👏",
+    "description": "专注完成通知 - 标题（一般）",
+    "placeholders": {
+      "duration": {
+        "content": "$1",
+        "example": "25 分钟"
+      }
+    }
+  },
+  "notifications_focus_finish_title_1": {
+    "message": "You have focused $times$ times! 👏",
+    "description": "专注完成通知 - 标题（长休息）",
+    "placeholders": {
+      "times": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "notifications_focus_finish_title_3": {
+    "message": "You have finished 1 focus cycle! 👏",
+    "description": "专注完成通知 - 标题（专注周期）"
+  },
+  "notifications_focus_finish_title_4": {
+    "message": "Finished $times$ focus and 1 focus cycle💐",
+    "description": "专注完成通知 - 标题（专注周期 & 长休息）",
+    "placeholders": {
+      "times": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "notifications_focus_finish_message_0": {
+    "message": "Focused with Tide for $times$ times👍🏼",
+    "description": "专注完成通知 - 内容（一般）",
+    "placeholders": {
+      "times": {
+        "content": "$1",
+        "example": "4"
+      }
+    }
+  },
+  "notifications_focus_finish_message_1": {
+    "message": "Stay focused by taking short breaks",
+    "description": "专注完成通知 - 内容（高效模式）"
+  },
+  "notifications_focus_finish_message_2": {
+    "message": "Walk around and relax yourself🍃",
+    "description": "专注完成通知 - 内容（长休息）"
+  },
+  "notifications_focus_finish_message_3": {
+    "message": "Start break automatically",
+    "description": "专注完成通知 - 内容（自动休息）"
+  },
+  "notifications_focus_finish_message_4": {
+    "message": "Start break automatically. Walk around and relax yourself🍃",
+    "description": "专注完成通知 - 内容（自动休息 & 长休息）"
+  },
+  "notifications_break_finish_title_0": {
+    "message": "Break time is up",
+    "description": "休息完成通知 - 标题"
+  },
+  "notifications_break_finish_message_0": {
+    "message": "Continue your focus",
+    "description": "休息完成通知 - 内容（一般）"
+  },
+  "notifications_break_finish_message_1": {
+    "message": "Start focus automatically",
+    "description": "休息完成通知 - 内容（自动专注）"
+  },
+  "notifications_break_finish_message_2": {
+    "message": "Finished 1 focus cycle",
+    "description": "休息完成通知 - 内容（专注周期）"
+  },
+  "notifications_buttons_0": {
+    "message": "BREAK",
+    "description": "通知按钮 - 开始休息"
+  },
+  "notifications_buttons_1": {
+    "message": "FOCUS",
+    "description": "通知按钮 - 开始专注"
+  },
+  "notifications_buttons_2": {
+    "message": "Skip break and start focus",
+    "description": "通知按钮 - 跳过并开始专注"
+  },
+  "notifications_buttons_3": {
+    "message": "Skip break and start focus",
+    "description": "通知按钮 - 专注结束 - 跳过休息并开始下一个专注周期"
+  },
+  "notifications_buttons_4": {
+    "message": "Start focus",
+    "description": "通知按钮 - 休息结束 - 开始下一个专注周期"
+  },
+  "breakQuotes_0": {
+    "message": "Take a Deep Breath",
+    "description": "休息文案 - 金句_0"
+  },
+  "breakQuotes_1": {
+    "message": "Have a Break",
+    "description": "休息文案 - 金句_1"
+  },
+  "breakQuotes_2": {
+    "message": "Take a Break",
+    "description": "休息文案 - 金句_2"
+  },
+  "breakQuotes_3": {
+    "message": "Close your eyes for a while 👀",
+    "description": "休息文案 - 金句_3"
+  },
+  "breakQuotes_4": {
+    "message": "Take a Break",
+    "description": "休息文案 - 金句_4"
+  },
+  "breakQuotes_5": {
+    "message": "Take a Break",
+    "description": "休息文案 - 金句_5"
+  },
+  "blockQuotes_0": {
+    "message": "To be able to concentrate for a considerable time is essential to difficult achievement.",
+    "description": "拦截界面 - 金句_0"
+  },
+  "blockQuotes_1": {
+    "message": "Concentration is the secret of strength.",
+    "description": "拦截界面 - 金句_1"
+  },
+  "blockQuotes_2": {
+    "message": "People's thinking is great, just focus on a particular career, will certainly make struck their grades.",
+    "description": "拦截界面 - 金句_2"
+  },
+  "blockQuotes_3": {
+    "message": "The power to concentrate was the most important thing. Living without this power would be like opening one’s eyes without seeing anything. —— Haruki Murakami",
+    "description": "拦截界面 - 金句_3"
+  },
+  "blockQuotes_4": {
+    "message": "The ability to concentrate and to use time well is everything.",
+    "description": "拦截界面 - 金句_4"
+  },
+  "blockQuotes_5": {
+    "message": "Concentration is the secret of strength.",
+    "description": "拦截界面 - 金句_5"
+  },
+  "blockEmoji_0": {
+    "message": "🙈",
+    "description": "拦截界面 - 表情_0"
+  },
+  "blockEmoji_1": {
+    "message": "💪",
+    "description": "拦截界面 - 表情_1"
+  },
+  "blockEmoji_2": {
+    "message": "🤔",
+    "description": "拦截界面 - 表情_2"
+  },
+  "blockEmoji_3": {
+    "message": "🌲",
+    "description": "拦截界面 - 表情_3"
+  },
+  "blockEmoji_4": {
+    "message": "✌️",
+    "description": "拦截界面 - 表情_4"
+  },
+  "blockEmoji_5": {
+    "message": "🏋️‍♀️",
+    "description": "拦截界面 - 表情_5"
+  },
+  "logoPath": {
+    "message": "\/options-logo-en.png",
+    "description": "LOGO 路径，不用翻译"
+  }
+}

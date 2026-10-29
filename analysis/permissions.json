@@ -1,0 +1,153 @@
+[
+  {
+    "name": "android.permission.GET_TASKS"
+  },
+  {
+    "maxSdkVersion": "28",
+    "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+  },
+  {
+    "name": "android.permission.ACCESS_WIFI_STATE"
+  },
+  {
+    "maxSdkVersion": "28",
+    "name": "android.permission.READ_PHONE_STATE"
+  },
+  {
+    "name": "android.permission.INTERNET"
+  },
+  {
+    "name": "android.permission.ACCESS_NETWORK_STATE"
+  },
+  {
+    "name": "android.permission.GET_ACCOUNTS"
+  },
+  {
+    "name": "com.xiaomi.sdk.permission.APP"
+  },
+  {
+    "name": "com.xiaomi.permission.AUTH_SERVICE"
+  },
+  {
+    "name": "android.permission.GET_INSTALLED_APPS"
+  },
+  {
+    "name": "android.permission.QUERY_ALL_PACKAGES"
+  },
+  {
+    "name": "android.permission.WAKE_LOCK"
+  },
+  {
+    "name": "android.permission.VIBRATE"
+  },
+  {
+    "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+  },
+  {
+    "name": "android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+  },
+  {
+    "name": "android.permission.BLUETOOTH"
+  },
+  {
+    "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+  },
+  {
+    "name": "android.permission.SET_WALLPAPER"
+  },
+  {
+    "name": "android.permission.DISABLE_KEYGUARD"
+  },
+  {
+    "name": "android.permission.SYSTEM_ALERT_WINDOW"
+  },
+  {
+    "name": "android.permission.SYSTEM_OVERLAY_WINDOW"
+  },
+  {
+    "name": "android.permission.RECORD_AUDIO"
+  },
+  {
+    "minSdkVersion": "26",
+    "name": "android.permission.FOREGROUND_SERVICE"
+  },
+  {
+    "minSdkVersion": "29",
+    "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+  },
+  {
+    "minSdkVersion": "29",
+    "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+  },
+  {
+    "minSdkVersion": "34",
+    "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+  },
+  {
+    "minSdkVersion": "34",
+    "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+  },
+  {
+    "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+  },
+  {
+    "name": "android.permission.BROADCAST_PACKAGE_CHANGED"
+  },
+  {
+    "name": "android.permission.PACKAGE_USAGE_STATS"
+  },
+  {
+    "name": "oppo.permission.OPPO_COMPONENT_SAFE"
+  },
+  {
+    "name": "com.huawei.permission.external_app_settings.USE_COMPONENT"
+  },
+  {
+    "name": "android.permission.ACCESS_COARSE_LOCATION"
+  },
+  {
+    "name": "com.android.alarm.permission.SET_ALARM"
+  },
+  {
+    "maxSdkVersion": "32",
+    "name": "android.permission.SCHEDULE_EXACT_ALARM"
+  },
+  {
+    "minSdkVersion": "33",
+    "name": "android.permission.USE_EXACT_ALARM"
+  },
+  {
+    "minSdkVersion": "33",
+    "name": "android.permission.POST_NOTIFICATIONS"
+  },
+  {
+    "name": "android.permission.USE_FULL_SCREEN_INTENT"
+  },
+  {
+    "name": "com.android.vending.BILLING"
+  },
+  {
+    "name": "io.moreless.tide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  },
+  {
+    "name": "com.google.android.gms.permission.AD_ID"
+  },
+  {
+    "name": "freemme.permission.msa"
+  },
+  {
+    "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+  },
+  {
+    "name": "com.vivo.notification.permission.BADGE_ICON"
+  },
+  {
+    "name": "io.moreless.tide.permission.MIPUSH_RECEIVE"
+  },
+  {
+    "name": "com.xiaomi.permission.WAKE_LOCK"
+  },
+  {
+    "name": "android.permission.CAMERA"
+  }
+]

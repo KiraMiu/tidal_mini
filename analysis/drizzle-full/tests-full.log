@@ -1,0 +1,7 @@
+PASS: countdown, pause/resume, completion, restoration, breath boundaries, invalid duration
+PASS sleep: same/next day, year boundary, DST, stale/early/expired trigger
+PASS: 9 asset hashes; 7 playable scenes; 3 current breathing modes
+PASS: original sleep artwork hashes
+PASS: hidden entry points, sleep launcher, no microphone permission
+PASS: 14 recovered original public demo hashes, including Drizzle
+PASS: complete original Drizzle selected; byte size, SHA-256 and original resource hash verified

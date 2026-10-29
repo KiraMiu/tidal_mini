@@ -1,0 +1,128 @@
+[
+  {
+    "path": "sounds/original_demo_FkYQAAnlUP9GK4glJFppQX0joAGv.mp3",
+    "name": "绵雨",
+    "source_metadata": "presets/breath/breath_recommend_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/FkYQAAnlUP9GK4glJFppQX0joAGv",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "e5a11c30bd51fcf88d835ba7bf2dcfe0fc3284d74cffc640d1c3dbd5f2c0710b"
+  },
+  {
+    "path": "sounds/original_demo_Fm-uTWicd-eRCNgCbCn3_X87Bm_Y.mp3",
+    "name": "林风",
+    "source_metadata": "presets/breath/breath_recommend_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/Fm-uTWicd-eRCNgCbCn3_X87Bm_Y",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.040825,
+    "sha256": "93dbda9ad9e3566552bcd9057c06639d888d0be6636b7319c7dfec80e4e38c64"
+  },
+  {
+    "path": "sounds/original_demo_FvuHKh4ueMk_XEl4OQivRNqfxt9r.mp3",
+    "name": "迷泉",
+    "source_metadata": "presets/breath/breath_recommend_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/FvuHKh4ueMk_XEl4OQivRNqfxt9r",
+    "kind": "original_public_demo",
+    "duration_seconds": 42.048,
+    "sha256": "65e26119917e926e7a655f5bc8fd086d803fe2a469037014c587b8fdb95ee48e"
+  },
+  {
+    "path": "sounds/original_demo_Fj5Xd4Md2un48RTT9dDq5rrzmgXu.mp3",
+    "name": "26.5℃",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/Fj5Xd4Md2un48RTT9dDq5rrzmgXu",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "91fb11a29b8e24c69be9042389cfd9659b208e837c5b1e8dcd9dba78b6c028b7"
+  },
+  {
+    "path": "sounds/original_demo_FgEEEBRceullQIfpnRMzA1BvZB1J.mp3",
+    "name": "湖",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/FgEEEBRceullQIfpnRMzA1BvZB1J",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "13f07952bee059ca19d0859dd0d991256227b41f3f880bcc08dc1e3ac1d78f94"
+  },
+  {
+    "path": "sounds/original_demo_Fk9hQaU1-alWBPj8tfG0S3KQt4mx.mp3",
+    "name": "夏虫",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/scenes/Fk9hQaU1-alWBPj8tfG0S3KQt4mx",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.048,
+    "sha256": "38449887a2d46a44c380e9c4e8264b76d1b784b315e2f077af80279eeb49e49f"
+  },
+  {
+    "path": "sounds/original_demo_Fm6WAj8WupT22y57nSftsWON7Khj.mp3",
+    "name": "沙漠",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/Fm6WAj8WupT22y57nSftsWON7Khj",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "e9c2e0b395f203d5a1963921520e9f317a7c78c6183cec2d23f2a1f14538756f"
+  },
+  {
+    "path": "sounds/original_demo_Fl2z8XcvVGy8lZikf05dkQmDqYSj.mp3",
+    "name": "春雨",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/Fl2z8XcvVGy8lZikf05dkQmDqYSj",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "abf13991409456000a45f8cf09c729bebb4f4d0e7104366107fc159c2f861e94"
+  },
+  {
+    "path": "sounds/original_demo_FqQ4j_EuP4Y6ArisLlgMh74surbe.mp3",
+    "name": "老风车",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/FqQ4j_EuP4Y6ArisLlgMh74surbe",
+    "kind": "original_public_demo",
+    "duration_seconds": 28.560544,
+    "sha256": "c4c86cf75eb27e55c43e031a2081f82fdf60bba5f71f094e6318d3a8a7639ee3"
+  },
+  {
+    "path": "sounds/original_demo_Fo7U7R_yu1yzX49_EBeaWjgUUGjR.mp3",
+    "name": "竹林",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/Fo7U7R_yu1yzX49_EBeaWjgUUGjR",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "18c23959ca91e66d8ff09dc8d6507d3b660abe3b6df1429efde4568bbc440a03"
+  },
+  {
+    "path": "sounds/original_demo_FlM3oOMIufraI6BPdNRPU8VNd40B.mp3",
+    "name": "山径",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/FlM3oOMIufraI6BPdNRPU8VNd40B",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "311dcf37e3efb13231face4e945499e3dc535c2626e77ad0a71239275487dd8b"
+  },
+  {
+    "path": "sounds/original_demo_FpElWjEJngBb82FrT87dy-x8WSC7.mp3",
+    "name": "屋檐",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/FpElWjEJngBb82FrT87dy-x8WSC7",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.069841,
+    "sha256": "96855c8aa94e56621b7e556067cf9300386fbdc76b975188043e5e6142fcd8cb"
+  },
+  {
+    "path": "sounds/original_demo_FjmZCZNcB98SbSvfYRhPUx8x1MCn.mp3",
+    "name": "溪流",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/demo_sounds/FjmZCZNcB98SbSvfYRhPUx8x1MCn",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.06695,
+    "sha256": "e898f8fee889ab9c97d1d66fdfddd936ccf3aa904c0bac78fcf85e818cb8f3fa"
+  },
+  {
+    "path": "sounds/original_demo_FlD78ivpgzHxPRTxWJiMznpL8j7b.mp3",
+    "name": "手谈",
+    "source_metadata": "presets/guide_focus_scenes.json",
+    "url": "https://pics.tide.moreless.io/scenes/FlD78ivpgzHxPRTxWJiMznpL8j7b",
+    "kind": "original_public_demo",
+    "duration_seconds": 30.048,
+    "sha256": "c116a9fd119ecf98a61e8d16dbd9e2aefc1f9781d53b43d64dbd677eb604ac2f"
+  }
+]

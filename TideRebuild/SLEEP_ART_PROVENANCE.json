@@ -1,0 +1,117 @@
+[
+  {
+    "path": "art/sleep.jpg",
+    "source": "res/drawable-xxhdpi/bg_sleep_normal.jpg",
+    "sha256": "e69ff4c46f0cf27add6f92d7c978e5befc3aaac6d71813c9b1ea2387772e723d"
+  },
+  {
+    "path": "art/sleep_dimmed.jpg",
+    "source": "res/drawable-xxhdpi/bg_sleep_dimmed.jpg",
+    "sha256": "4660a8486c4b14dbdcf1e43b5a62474552746d7bdef4836df27d31cd99acc738"
+  },
+  {
+    "path": "art/alarm_ring.webp",
+    "source": "res/mipmap-xxxhdpi/alarm_bg_ground.webp",
+    "sha256": "fe5c52cbb53efa202071fa70ba22706ac7f0080dc728f658a9c08471c0f387a1"
+  },
+  {
+    "path": "art/moon.webp",
+    "source": "res/mipmap-xxxhdpi/icon_home_sleep.webp",
+    "sha256": "a78482f284a4a2b15d05a47e74039c21d09e20705bc31c98a68f64e515b2c191"
+  },
+  {
+    "path": "art/sound_sence_rain.webp",
+    "source": "assets/images/sound_sence_rain.webp",
+    "sha256": "7fa286f776c7532e3d2b60001b82f26db187426a6341e55f4ae85e94de3be312"
+  },
+  {
+    "path": "art/sound_scene_campfire.webp",
+    "source": "assets/images/sound_scene_campfire.webp",
+    "sha256": "ee1ad2e209c4d88a7b3152159a631048a7c1c58a4868ad498c187cb20ac6a8c4"
+  },
+  {
+    "path": "art/sound_sence_ocean.webp",
+    "source": "assets/images/sound_sence_ocean.webp",
+    "sha256": "3df0019d08ac2a258aa5bbf7a35f2154e05089197ee877d3f45dbf84c80c577f"
+  },
+  {
+    "path": "art/sound_sence_muse.webp",
+    "source": "assets/images/sound_sence_muse.webp",
+    "sha256": "d106b88982dd53641ad60d92a2119e639c003867a19ea515846292a0cfe84b90"
+  },
+  {
+    "path": "art/sound_scene_forest.webp",
+    "source": "assets/images/sound_scene_forest.webp",
+    "sha256": "eca428a8df4f47c6a92dbf0ecc6c280f9fbb31b0d6e2a8dff99f7c27c708a7ad"
+  },
+  {
+    "path": "fonts/inter_medium.ttf",
+    "source": "res/font/inter_medium.ttf",
+    "sha256": "43592f23cbeda66cbe13c3095ac579cc2abafc331f7edced3a83f56afc645ead"
+  },
+  {
+    "path": "fonts/inter_light.ttf",
+    "source": "res/font/inter_light.ttf",
+    "sha256": "3b98703e754229c4318b85da16eebaa2f029ae7f839c8a0d97e7600b5dadb0ec"
+  },
+  {
+    "path": "art/ic_stat_tide.webp",
+    "source": "res/drawable-xxxhdpi/ic_stat_tide.webp",
+    "sha256": "28d86fcb9840dc7dffb81c1fc72825ea64ce17a7dbab88319b9e3bed7e0440d2"
+  },
+  {
+    "path": "art/scene_5e54abfcc496e0000669d2c9.png",
+    "source": "res/mipmap-xxxhdpi/ic_5e54abfcc496e0000669d2c9.png",
+    "sha256": "f2332142715b3e7e56e96d5a4a494151e4e2da9b6791ac43a9a3ffbfa484a876"
+  },
+  {
+    "path": "art/scene_5e54a9c8c496e0000669d2c3.png",
+    "source": "res/mipmap-xxxhdpi/ic_5e54a9c8c496e0000669d2c3.png",
+    "sha256": "311e9552f37800cb8edbc6f2474f680b7243fe696da0d7c282532205b1c3152d"
+  },
+  {
+    "path": "art/scene_5a787347fbcf3900067aac0b.png",
+    "source": "res/mipmap-xxxhdpi/ic_5a787347fbcf3900067aac0b.png",
+    "sha256": "b5492877c95ead834e36eba1250f0e1856748f45cfe71171746c63ed90f07e29"
+  },
+  {
+    "path": "art/scene_5a5323f3edc9de0005e85ba6.png",
+    "source": "res/mipmap-xxxhdpi/ic_5a5323f3edc9de0005e85ba6.png",
+    "sha256": "cd19ae67f48e840ee69d6901fc58786273fcef11f2260b5bbe1c06f53217f96e"
+  },
+  {
+    "path": "art/scene_5a560d113ea0bf00086a36a8.png",
+    "source": "res/mipmap-xxxhdpi/ic_5a560d113ea0bf00086a36a8.png",
+    "sha256": "850bdb27afe44a358d31641cc6c05b59a981e896abf4c509eb8f2afc4a4453fd"
+  },
+  {
+    "path": "art/scene_5c481d18cdcaa900064e4cf2.png",
+    "source": "res/mipmap-xxxhdpi/ic_5c481d18cdcaa900064e4cf2.png",
+    "sha256": "ce0f122d016a571ed608c2474fd74fc580b403df2f07d632d8f5a8a1145175d4"
+  },
+  {
+    "path": "art/scene_5b601f8b5409500007acb509.png",
+    "source": "res/mipmap-xxxhdpi/ic_5b601f8b5409500007acb509.png",
+    "sha256": "103548549b57f5d82a8da81f46f3069f35318fe403b9c7d00619aabacc4ea991"
+  },
+  {
+    "path": "art/scene_5a560ddf3ea0bf00086a36a9.png",
+    "source": "res/mipmap-xxxhdpi/ic_5a560ddf3ea0bf00086a36a9.png",
+    "sha256": "607993479c6c82b2c12f22c17c12055b2cb987072e7c24cc9ff005e6c5daf466"
+  },
+  {
+    "path": "art/scene_5e05c966465a4b00068d616e.png",
+    "source": "res/mipmap-xxxhdpi/ic_5e05c966465a4b00068d616e.png",
+    "sha256": "7e07bc0df056cc5867dcde04f0e73771159420fb00d28c6d4cca410628e1c2df"
+  },
+  {
+    "path": "art/preset_wakeup_forest.webp",
+    "source": "assets/images/preset_wakeup_forest.webp",
+    "sha256": "5a61191396abf52d0b664ead57f644085921c7aaa301a7148ee39348bbbd0f7b"
+  },
+  {
+    "path": "art/light_original.jpg",
+    "source": "https://pics.tide.moreless.io/scenes/FqbBL4F8zR-ENRIlz5XzmzUvHJuv (URL from original APK presets/scenes.json)",
+    "sha256": "5bb4e00abade4943250b7abd926ddbc73274eba157f384936899ad32b53c96dd"
+  }
+]

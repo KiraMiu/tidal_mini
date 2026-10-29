@@ -1,0 +1,18 @@
++ /Users/cxmacstudio01/Library/Android/sdk/build-tools/35.0.0/aapt2
++ javac
+注: 某些输入文件使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
++ /Users/cxmacstudio01/Library/Android/sdk/build-tools/35.0.0/d8
++ /Users/cxmacstudio01/Library/Android/sdk/build-tools/35.0.0/zipalign
++ /Users/cxmacstudio01/Library/Android/sdk/build-tools/35.0.0/apksigner
++ /Users/cxmacstudio01/Library/Android/sdk/build-tools/35.0.0/apksigner
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
++ /Users/cxmacstudio01/Library/Android/sdk/build-tools/35.0.0/zipalign
+APK: /Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/build/offline/20261028-183107-265490/tide-rebuild-debug.apk

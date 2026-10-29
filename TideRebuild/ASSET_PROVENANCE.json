@@ -1,0 +1,47 @@
+[
+  {
+    "path": "presets/scenes.json",
+    "sha256": "372ea32af870a37a385d3f5e5907dda26827bcdbeea5145d3a4855ee2444ff00",
+    "bytes": 34990
+  },
+  {
+    "path": "presets/breath/config.json",
+    "sha256": "969902671290b2d7d67add529489e6153a837bbcdb57806d8e3dd64c8a8d2217",
+    "bytes": 7932
+  },
+  {
+    "path": "sounds/lqVsojtUa0PGHanLKJwjWHMPyhP3.m4a",
+    "sha256": "07ee08fdb72708399d6600ce196cc125e538028d6a6c2eb720505de8e3701a08",
+    "bytes": 4699333
+  },
+  {
+    "path": "sounds/liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+    "sha256": "606f9860c90d83d51581791100f9ba076e4f0d5321f9cc300fe9c0f788701180",
+    "bytes": 6657780
+  },
+  {
+    "path": "sounds/ltqadXtINtbwxaEsHdTY7cmaR-MA.m4a",
+    "sha256": "997555a343a938deeedca4a03a456f23a43a7e5936e74db3a2bd0a9745fd3b21",
+    "bytes": 10770704
+  },
+  {
+    "path": "sounds/lkSSHbxssZEJ1C7fqZosIEjQHnKB.m4a",
+    "sha256": "f7b29b8bff743a8ae3794abb7c2d708e0f0784fb5e2a16228d78ca56137222e6",
+    "bytes": 12001552
+  },
+  {
+    "path": "sounds/luadFKfSat4vp63vyZ_1zlC-8rnS.m4a",
+    "sha256": "0feb10cf1afe49cf4ae490a590afbb0be9b62f0e02b91587e856f8642b4fe8e8",
+    "bytes": 11976836
+  },
+  {
+    "path": "sounds/alarm_1.m4a",
+    "sha256": "4b3695dc9a427072ede02dac8f3b76d227e3841eb3de85c98e77090f8c51472e",
+    "bytes": 1001746
+  },
+  {
+    "path": "sounds/preset_wakeup_forest.m4a",
+    "sha256": "48252a407d07e28d7a061ce84d8310256fae9d5591251c85074ec007cd718ec8",
+    "bytes": 1259252
+  }
+]

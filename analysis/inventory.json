@@ -1,0 +1,15 @@
+{
+  "permissions": 47,
+  "components": {
+    "activity": 183,
+    "provider": 10,
+    "service": 39,
+    "receiver": 23
+  },
+  "explicit_exported_true": 43,
+  "smali_classes": 28728,
+  "java_files": 24197,
+  "java_undecompiled_method_markers": 3109,
+  "native_lib_files": 36,
+  "native_lib_names": 18
+}

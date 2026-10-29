@@ -1,0 +1,45 @@
+# macOS and editor-local files
+.DS_Store
+._*
+.idea/
+*.iml
+
+# Build output and local machine configuration
+.gradle/
+build/
+local.properties
+__pycache__/
+*.py[cod]
+
+# Private signing material and local credentials
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+id_ed25519*
+.env
+.env.*
+!.env.example
+key.properties
+keystore.properties
+credentials.properties
+
+# Original APK and generated reverse-engineering material stay local.
+# The maintained app includes its required assets and provenance records.
+/*.apk
+/decompiled/
+/recovered/
+
+# Historical delivery packages stay local; retain checksums and artwork.
+/交付/*.apk
+/交付/*.zip
+
+# Downloaded analysis tools, tool state, and dependency caches
+/tools/apktool.jar
+/tools/framework/
+/tools/gradle-cache/
+/tools/jadx/
+/tools/jadx.zip
+/tools/jadx-cache/
+/tools/jadx-config/

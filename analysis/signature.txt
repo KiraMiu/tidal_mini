@@ -1,0 +1,4 @@
+Signer #1 certificate DN: CN=Moreless, OU=Moreless, O=Moreless, L=Xiamen, ST=Fujian, C=86
+Signer #1 certificate SHA-256 digest: b37176fed13784e28db4378f2fef774e88fca25a4132e8ee2906e64a12b1411e
+Signer #1 certificate SHA-1 digest: c05111d419867d4368ade91128b5703c3fb8052a
+Signer #1 certificate MD5 digest: f07919ffd7e419ce70a9af3f8e72f205

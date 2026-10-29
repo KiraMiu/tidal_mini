@@ -1,0 +1,189 @@
+# 0.4.2 设置毛玻璃与锁屏复测
+
+日期：2026-10-28。设备 Android 16 / 25079RPDCC，安装包 `0.4.2-mini`（versionCode 8）。
+
+## 设置弹窗
+
+新增 SleepDialogs，统一设置首页、铃声选择、原版音源选择、后台说明和厂商权限说明的背景快照模糊、半透明叠层、30dp 圆角与左上返回按钮；根据内容高度展示，超出当前窗口时滚动。系统权限、音量、文件与铃声选择器仍使用系统窗口。
+
+核心测试、离线构建、签名和对齐通过；使用 `adb install --no-streaming -r` 安装成功，没有卸载或清数据。已打开查看 `settings.png` 和 `ringtone-settings.png` 真机截图，设置七项入口均可见，铃声入口点击可打开子弹窗。未将所有系统设置入口逐一修改或试听。
+
+## 锁屏问题：复现、权限对照与结果
+
+1. 修改前：Android 精确闹钟、通知、全屏提醒均允许，正常与静音通知频道 importance=4。锁屏复测中 interactive_before=false、keyguard_before=true，闹钟进入 ringing / playback=playing，但 interactive_after=false，没有可见响铃页。20:30:20.621 系统日志记录 `MIUILOG- Permission Denied Activity`，包名为本应用。厂商页面确认“锁屏显示”“后台弹出界面”均为拒绝。
+2. 用户明确授权开启并复测后，通过设备权限页面只将这两项改为始终允许。MIUIOP(10020)/MIUIOP(10021) 由 ignore 变为 allow。没有改系统音量、通知频道重要性、其他权限或系统布局。
+3. 同一 APK 复测：20:36:16.396 系统从 PendingIntent 启动 WakeActivity，20:36:16.527 记录 Displayed；截图 `lock-after.png` 显示全屏响铃页。设备自动亮屏，keyguard 仍为 true。这次脚本 ActivityMonitor.getHits() 为 0，错误报失败；真实截图与系统日志不支持该失败结论。
+4. 修正独立测试判定：保留监视器读数供诊断，实际断言采用 UiAutomation 前台可访问窗口包名、响铃/起床文字、亮屏及锁屏状态；没有修改生产闹钟代码以迎合测试。再次复测结果 `PASS lock-check`：interactive_before=false、keyguard_before=true、interactive_after=true、keyguard_after=true、ringing_window_visible=true、phase=ringing、playback=playing。见 `lock-final.txt` / `lock-final.png`。
+
+结论：本次可确认厂商权限限制导致未自动弹窗；两项权限一并允许后，观察到两次锁屏自动亮屏并显示响铃页。没有单独隔离哪一个开关是唯一必要条件，不据此保证所有厂商系统或整夜可靠性。
+
+## 收尾与边界
+
+- 最终 phase=off、trigger=0、token 为空、silentTest=false，音频 wanted=false/status=stopped，本包前台服务为空；遗留 ringPlayback 字段是历史记录，不据此认定还在播放。
+- 全部复测使用独立静音测试频道及零音量播放器；正常频道配置已核对，但本次没有有声听音或真实用户频道完整响铃验收。没有做 Doze、重启、长时省电或整夜测试。
+- 权限调整保留在这台设备上；APK 无法替其他设备自动授予这些权限。卸载重装后需要重新检查。
+- 证据目录：`../analysis/mini-v042-device/`。旧失败输出保留，不覆盖成成功。
+- 交付：`../交付/潮汐Mini-0.4.2-debug.apk`；历史产物保留。
+
+---
+
+# 0.4.1 主界面适配验证
+
+日期：2026-10-28。此次只改布局与图标文字排版，未改闹钟策略。
+
+- 已定位原卡片固定 570dp 高度造成删减内容后留白；单侧 compound drawable 造成按钮文字中心向右偏。
+- 主界面卡片改为内容高度，顶部保留设置工具栏区域，在实际父容器可用空间居中，宽度限制 480dp，内容超高时由 ScrollView 滚动；不再用整屏高度减固定数值决定卡片高度。
+- 图标采用文字内嵌绘制，并在尾部留等宽占位。文字中轴与无图标按钮一致，图标与文字固定相邻；长按继续复用同一图标对象更新圆环。
+- `python3 scripts/test.py` 全部通过；离线构建、签名、对齐通过。新版独立测试 APK 已构建；此次没有运行其长按/响铃设备测试。
+- Android 16、25079RPDCC 真机安装并冷启动成功。已打开 `../analysis/mini-v041-device/home-installed.png` 检查：文字中心一致、播放图标相邻、卡片底部无原大片空白、设置入口保留。
+- ADB 第一次增量安装返回成功，但随后的启动报 Activity 不存在，包管理器也查不到该包。改用完整传输安装后启动正常。未确定旧包消失原因，未执行卸载或清数据。当前设备可见默认海洋/07:30 配置，精确闹钟权限未开启；没有宣称原设置保留。
+- 未通过修改系统分辨率/密度模拟其他设备。不同手机、横屏、分屏、大字体尚无实机验证；相关适配来自当前测量实现，不把静态审查当作设备通过。
+
+方案：`../../docs/plans/2026-10-28-tide-home-adaptation-plan.md`。交付：`../交付/潮汐Mini-0.4.1-debug.apk`，历史 APK 保留。
+
+---
+
+# 0.4.0 真机验证补充（安装后）
+
+2026-10-28，用户明确授权通过 ADB 安装并测试。设备型号 25079RPDCC，包名 `io.moreless.tide.rebuild`。覆盖安装成功，原应用数据保留；没有覆盖原版 `io.moreless.tide`。独立验证包同步更新，用户 APK 未再修改。
+
+- 实际截图核对：首页设置图标与播放图标文字；声音弹窗圆角和背景模糊，两张新增封面；睡眠页长按进度环；锁屏响铃页的大号绿色起床按钮及“再睡30分钟”。
+- `full-only` / `assets` instrumentation 通过：8 项完整音源、旧选择迁移、8 项解码、绵雨 307061ms、系统与自定义铃声准备、无效及超限文件拒绝。解码准备不等于听音验收。
+- `hold` 通过：真实触摸短按不取消闹钟；1.5 秒按住结束后 phase=off，音频 wanted=false。第一次进度截图被短按 Toast 遮挡；第二次等待 Toast 消失后重拍 `hold-progress-clear.png`，可见中途进度环。
+- `cycle` 通过：第一轮实际经过 60036ms 后进入 retry，下一次系统调度为原截止时间 +240000ms；第二、三轮使用测试时间戳加速推进，检查第三轮结束、旧 token 不干扰新会话，以及 30 分钟系统 AlarmClockInfo。**后两轮没有完整等待，贪睡也没有等待真实 30 分钟。**
+- 息屏后安排的 30 秒静音闹钟自动点亮并进入全屏 WakeActivity，截图 `locked-alarm.png`；持久状态 ringing、silentTest=true、ringPlayback=playing。仅为本设备本次短时锁屏验证。
+- `buttons` 通过：在响铃时间窗口内真实触摸“再睡30分钟”并核对触发时间；真实触摸“起床”后取消闹钟。此前一次手工点击已超过本轮一分钟，进入 retry，不计为按钮验证成功。
+- `icon` 通过设备 PackageManager 获取启动 Activity 图标，返回用户提供的蓝色图片，见 `resolved-launcher-icon.png`。桌面原快捷入口此前仍显示 Android 默认图标，疑似桌面缓存；已尝试 `am kill com.miui.home` 重新加载后台桌面，未清除数据或布局。随后设备锁屏，**桌面最终刷新效果未核验，不声明图标问题已完全解决。**
+- 收尾核验：phase=off、trigger=0、token 为空、silentTest=false，音频 wanted=false/status=stopped，`dumpsys activity services` 无本包服务。未改系统音量，未遗留测试闹钟或播放。未执行卸载、清数据或删除文件。
+
+证据目录：`../analysis/mini-v040-device/`，结果摘要 `results.json`。本次没有真实听音、完整 11 分钟周期/30 分钟贪睡等待、整夜、重启和 Doze 验证。下方“未安装、未运行 instrumentation”等内容是上一阶段构建时的历史记录，已由本节补充。
+
+---
+
+# 0.4.0 潮汐Mini 验证记录
+
+日期：2026-10-28。本节对应当前新增版本；下方旧记录仅为历史证据。
+
+## 本次通过
+
+- `python3 scripts/test.py`：既有计时/呼吸、闹钟日期与 token 边界测试通过。新增每轮 60 秒、两次间隔 240 秒、第三轮结束、贪睡 1800 秒规则，以及长按不足 1500ms 不完成、取消、进度和仅完成一次测试通过；新测试先观察缺失实现导致失败，再实现并复跑通过。
+- 8 个完整声音的封面存在；原资源哈希、完整绵雨哈希与原资源校验、用户图标源文件 SHA-256 检查通过。已打开并查看新增两张封面。
+- `python3 scripts/build_offline.py`：aapt2 编译资源、Java 编译、D8、APK v2/v3 签名与 zipalign 检查通过。Java 报告使用已有过时 API，未作为无警告构建描述。
+- APK 元数据确认包名仍为 `io.moreless.tide.rebuild`、versionCode 6、版本 `0.4.0-mini`、应用名 `潮汐Mini`、启动图标资源存在。aapt2 会重新压缩 PNG，已解码比较，安装包内图标像素与用户附件完全一致（1254×1254）。
+- APK 签名证书 SHA-256 与 0.3.2 交付包一致。新包另存为 `../交付/潮汐Mini-0.4.0-debug.apk`，历史交付未覆盖。
+- 独立 instrumentation APK 构建通过；通知贪睡断言已更新为 30 分钟。**本次没有运行设备 instrumentation。**
+- 静态代码审查后修正：长按不依赖系统动画倍率；页面暂停、触摸取消等路径取消计时；重新进入应用覆盖尚未结束的响铃恢复，并保留原截止时间。复核未发现上述两项修复引入明确重要问题。
+
+## 行为与范围
+
+- 首页右上角设置；移除 TIDE 与指定说明；声音弹窗圆角、背景快照模糊与半透明叠层、左上返回箭头；播放和结束按钮使用图标加文字，结束需按住 1.5 秒并显示圆环进度；起床按钮 84dp 高、28sp 字号、绿色圆角背景。
+- 无操作时：响 1 分钟 → 停 4 分钟 → 响 1 分钟 → 停 4 分钟 → 响 1 分钟 → 结束。点击“再睡30分钟”从点击时刻起计时，届时重新开始最多三轮；此处明确采用重置轮次的解释。
+- 截止提醒与下一轮均通过系统 AlarmManager 调度，服务和页面有补充到期处理；停止会取消后续提醒。声音清单仍为 8 项，未扩展功能入口。
+
+## 未覆盖
+
+本次没有安装到设备、操作手机、调节系统音量，也没有真机视觉或交互验收。纯 Java 时间规则测试不等于 Android 真实广播/服务调度验证；未等待完整 11 分钟三轮周期或 30 分钟贪睡，未复测锁屏、Doze、进程回收、强行停止后重新打开、系统重启或整夜可靠性。不能用历史设备测试证明新版已通过这些场景。
+
+---
+
+# 0.3.2 仅保留完整声音
+
+日期：2026-10-28。删除的是应用中的试听选项与打包资源，没有清除历史资料或设备数据。
+
+- 当前声音目录只保留海洋、雨天、冥想、森林、篝火、光、挪威的森林、绵雨，共 8 项完整音源。绵雨保持 307.06068 秒完整原声。
+- 14 个试听音频（13 个此前可选项及旧绵雨试听）、历史试听来源清单和旧恢复脚本迁至 `../analysis/full-only-v032/retired-previews/`，共 16 个文件；不进入应用 APK。原 APK 与历史交付产物未修改。
+- 新恢复脚本只允许已验证完整版，不再下载或重新加入试听资源。Catalog 对试听标记额外过滤，用户列表不保留试听说明。
+- 升级迁移覆盖睡眠选择、内置闹钟选择、媒体继续播放/服务恢复：旧绵雨试听转完整版，其余背景试听转海洋、闹钟试听转光。保留系统/自定义铃声、闹钟状态和播放意图；旧播放请求也会规范化，避免引用已移出的文件。
+- 修改前的无试听断言失败；修改后 `scripts/test.py` 通过。离线构建/签名/对齐校验通过，检查最终 APK 恰有 8 个音频文件且不含 `original_demo_` 资源。
+- 真机覆盖安装 versionCode 5 / 0.3.2-sleep。独立 instrumentation 的 full-only 检查通过：8 项完整目录、包内无试听、旧选择迁移、系统/自定义保留、闹钟 token/phase 与播放意图不变。
+- 真机 assets 检查通过：8 项音源均能 prepare，绵雨实际时长 307061 毫秒；没有启动音频播放或改变系统音量。此次未重复整夜、锁屏、重启测试。
+
+证据目录：`../analysis/full-only-v032/`。以下保留历史版本记录。
+
+---
+
+# 0.3.1 完整版绵雨验证
+
+日期：2026-10-28。本次只替换绵雨的实际选用音源，其他声音和闹钟行为未改。
+
+- GitHub `zhaoolee/ChromeAppHeroes/backup/105-tide.zip` 内为 Chrome 扩展 1.1.7；另实际下载并检查微软商店 Edge 1.1.7。两者均读取 `/v1/chrome_ext/configs`（客户端标识 ML-AppID=7），正常响应的 18 项声音无绵雨。两个按命名规则推测的绵雨扩展音源路径均为 404。GitHub 的绵雨资源标识和音源搜索未找到可确认的完整文件；`TheYZG/tidal-sleep` 使用通用白噪音素材，不是潮汐原声证据。
+- 最终来源是官方公开分享页：https://tide.fm/share/scenes/5c481d18cdcaa900064e4cf2 。页面正常返回 `share_page_play_url` 临时播放链接，使用该链接下载，无账号凭据、无绕过鉴权。之前裸资源 URL 的 403/401 不代表文件已不存在。
+- 文件字节数 12,339,888，与原 APK 元数据完全一致；Qiniu 分块内容哈希为 `lnSNpbE0TI_HLFPpdeSkoeIvGjvh`，与原版资源 hash 完全一致。SHA-256 为 `c3fb1a1b034a2bfb157b52fc3ac465b84233694d27239201bb6f3cee66f92270`。
+- AAC / 44.1 kHz / 双声道，ffprobe 时长 307.06068 秒。ffmpeg 完整解码至末尾退出码 0；不是将 30 秒试听循环拼接。
+- 本地测试通过，增加完整绵雨字节数、SHA-256、原版内容哈希及目录实际选用项检查。恢复脚本保留完整版，避免重新运行后降级成试听。
+- 离线 APK 构建、签名与对齐校验通过；沿用本地证书覆盖安装 versionCode 4 / versionName 0.3.1-sleep。
+- 真机 instrumentation 静音检查 21 项音源均能 prepare，绵雨实际时长 307061 毫秒。未播放音频或调整系统音量。铃声系统/自定义解码、无效和超限导入检查也通过。
+- 此次未重复锁屏/整夜测试；0.3 的相关证据和限制仍适用。旧 30 秒试听文件保留作溯源，当前列表只选用完整文件。
+
+来源清单：`FULL_SOUND_PROVENANCE.json`。证据：`../analysis/drizzle-full/full-verification.json`、`decode-full.log`、`device-full-audio.log`、`tests-full.log`、`build-full.log`。下方为此前版本的历史记录，其“完整版未取得”描述不再代表当前状态。
+
+---
+
+# 0.3 睡眠体验修订验证记录
+
+日期：2026-10-28。设备：25079RPDCC，Android API 36 / HyperOS；包名 `io.moreless.tide.rebuild`。本节是此次结果，下方 0.2 记录保留为历史证据。
+
+## 已验证
+
+- `python3 scripts/test.py`：既有核心时间/状态规则、原声音及美术哈希通过；新增 14 个原版公开试听音源哈希及绵雨存在性检查通过。原始 `scenes.json` 未改写，新增资源另存 `recovered_scenes.json`。
+- `python3 scripts/build_offline.py`：javac、D8、aapt2、zipalign 与 apksigner 构建/校验通过，使用既有本地调试证书。此次未重新运行 Gradle 构建。
+- 同签名覆盖安装成功，保留重构包数据，原版应用未被覆盖、清数据或设置闹钟。
+- 分离的 `AlarmChecks` instrumentation APK 在设备实际解码 21 个本地音源；每个 MediaPlayer.prepare 成功且时长大于 0。系统默认闹钟 URI 和导入到设备保护存储的音频也实际 prepare 成功，测试不调用 start，不发声。
+- 自动路由回归：同一测试在旧版得到 `launcher did not route to ringing activity`，新版 `PASS route`。证据：`route-red.log`、`route-green.log`。
+- 新版静音闹钟在锁屏后自动点亮屏幕，WakeActivity 成为 topResumedActivity；另一次仅终止测试包自己的进程，30 秒闹钟重新启动进程、点亮屏幕并显示响铃页。证据：`new-fullscreen.log`、`new-locked-alarm.png`、`process-death-locked.json/png`。这些是短时锁屏/进程退出验证，不是强行停止、重启、Doze 或整夜测试。
+- 响铃页“再睡一会”实际转为 snoozed，保持 silentTest=true；长按结束回到首页。`notification-actions.log` 额外验证实际通知具有全屏 Intent、PUBLIC 可见性、原版标题和两项操作，发送通知中的再睡一会 PendingIntent 后实际调度约 5 分钟。未等待完整 5 分钟再次响铃。
+- 设置页面已无静音测试入口；内部测试通过单独 APK 安排，主 APK 中没有导出的测试组件。`settings-no-test.xml/png` 已核验。
+- 独立代码审查发现并修复：整文件导入的内存峰值、系统默认回退播放器未处理异步错误。修复后静态复审未发现新的重要问题。最终设备测试：51 MiB 文件及无效音频被拒绝，失败候选文件不留存；损坏自定义音源实际回退系统默认并进入 playing，保持静音。见 `device-assets-final.log`、`device-fallback-final.log`。系统默认也失败后的内置最终回退已实现并静态审查，未在设备上破坏系统铃声来强制触发该分支。
+- 三类铃声入口实际显示；系统选择器能列出 AlarmClock、Beep 等闹钟声音。取消后保留原来的选择，未在系统选择器试听。自定义导入链路由实际文件读取、设备保护存储写入、播放器 prepare 验证；未完整手动走外部文档提供器选择流程。
+- 睡眠中/响铃页截图已检查：原地平线背景、上下时钟与 Inter 字体、起床时间、长按结束、原闹钟圆环及按钮布局。依据原 APK 布局和代码复建，没有声称原版全部动画或像素级还原。
+
+## 锁屏问题证据与限制
+
+本次第一次旧版复现时，系统日志明确出现 `NotificationManagerServiceImpl: MIUILOG- Permission Denied Activity`，当时 Android USE_FULL_SCREEN_INTENT 已允许。之后只读检查时，厂商“锁屏显示”和“后台弹出界面”均显示已允许；旧版随后一次复测也能自动全屏。因此，只能确认曾发生厂商层拒绝，不能将某个开关或某一代码变动声称为全部根因。此次未更改这些权限，也未添加悬浮窗权限或后台直接启动 Activity 的绕过逻辑。
+
+新版补充前台服务通知立即展示、锁屏 Activity 声明及厂商权限引导，当前设备的静音锁屏测试通过（含进程退出测试及审查修复后的最终 APK 复验，见 `final-locked-alarm.json/png`）。仍需用户日常确认，不能保证所有 OEM、整夜、设备重启或真实 Doze 条件。
+
+通知卡片的图标、标题、文案和 PendingIntent 已核验；设备在后续检查进入密码锁屏，系统通知抽屉仅显示 USB 提示，未完成展开卡片视觉核验。未输入或获取用户密码，也不把锁屏截图当作通知视觉通过证据。系统通知外框由 Android/HyperOS 决定。
+
+## 音源范围
+
+保留原 APK 内 7 个可播放音源。新增 14 项为 APK 中明确提供的公开试听 URL，包含绵雨约 30 秒、林风、迷泉等，界面标注“原版试听”，循环播放。绵雨完整资源端点返回 403/401，未取得完整文件、未绕过鉴权。来源、时长、SHA-256 见 `RECOVERED_SOUND_PROVENANCE.json`。这些不是原版全部云声音，循环接缝和主观音质未做听音验收。
+
+证据目录：`../analysis/sleep-v03/`。测试过程中没有调节系统音量；最终取消测试闹钟并停止测试播放。
+
+---
+
+# 0.2 睡眠版验证记录
+
+日期：2026-10-28。仅说明本次实际检查，不代表原版全量等价或整夜可靠性认证。
+
+## 通过
+
+- JDK 17 / Gradle 8.5 / AGP 8.2.2 `:app:assembleDebug` 构建通过。
+- 离线 SDK 构建通过 javac、D8、aapt2、zipalign 与 apksigner。日志见 `../analysis/sleep-v02/`。
+- 核心测试：当日/次日/跨年闹钟、DST、旧 token、提前/过期广播、既有计时/呼吸状态测试、播放意图暂停与恢复。
+- 原声音和配置资源哈希、复用睡眠美术哈希、睡眠 Launcher、旧入口禁用、没有麦克风权限检查通过。
+- 独立代码审查及修复：暂停后系统媒体继续播放的 START_STICKY 策略；重设闹钟停止旧响铃服务；失败回滚 token；恢复不延长响铃窗口；静音通知频道验证。
+- 测试包 `io.moreless.tide.rebuild` 更新安装成功；原版 `io.moreless.tide` 未覆盖。
+- 真机截图检查：睡眠时间滚轮、原地平线背景、半透明卡片、声音控制及闹钟页面。
+- 正常有声测试：待响时前台声音保持 `playing`；到点变为 `ringing`，助眠声音变为 `stopped`。用户明确反馈“闹钟正常”，并说明因在公司而手动关闭。
+- 后续改用静音测试，未调节系统音量：关闭助眠播放；主铃声、fallback 与焦点恢复路径维持零音量；独立通知频道检查声音/震动状态。
+- 静音进程退出测试：确认 `silentTest=true` 后仅终止测试包自身进程（PID 13258），系统闹钟在新的进程（PID 16390）启动 `AlarmService`。dumpsys 记录 `ALARM_MANAGER_ALARM_CLOCK`、`isForeground=true`、通知 `sound=null/vibrate=null`。这验证的是进程退出后的闹钟拉起，不是设备重启或强行停止后的拉起。
+- 解锁后从“查看闹钟”进入响铃页，显示静音测试、原闹钟圆环、再睡 5 分钟和停止按钮。
+- 点击“再睡 5 分钟”，phase 变为 snoozed，新 token 和新时间被保存，仍保持 silentTest=true；未等待完整五分钟再次触发。
+- 随后“结束睡眠”取消：最终 phase=off、trigger=0、silentTest=false、音频 wanted=false/status=stopped；应用前台服务列表为空，没有保留测试闹钟会话或测试播放。
+
+## 未通过或未覆盖
+
+- **这台设备的静音通知未自动点亮全屏**。即使 USE_FULL_SCREEN_INTENT 已允许，自动截图仍为黑屏，系统锁屏阻挡界面访问。用户解锁后从应用手动进入的响铃页正常。原因未完全定位，不能称为自动全屏验证通过；不通过直接启动后台 Activity 等绕过系统限制的方式掩盖。
+- 正式闹钟音量键路由到 STREAM_ALARM 已实现，但为了不在公司改变设备音量，未做实际音量调整验证。
+- 未测试整夜播放、真实 Doze（设备通过 USB 连接/充电）、断电重启、Direct Boot 解锁前恢复、厂商极端省电、用户强行停止后行为。
+- `START_STICKY` 的音频恢复已实现并审查；本轮无声条件下未实际终止正在有声播放的服务来验证音频恢复。
+- 五分钟稍后提醒验证到重新调度与取消，没有等待完整五分钟再响。
+- 没有录音、睡眠分析、云内容、原版全量 UI/动画或账号功能。
+
+## 设备设置与证据
+
+测试期间为独立测试包允许了精确闹钟及锁屏全屏提醒。没有改变原版权限或系统音量；后台电池无限制/自启动未自动修改，用户可在应用的设置入口配置。
+
+证据目录：`../analysis/sleep-v02/`。包含原版 `tide://sleep` 参考截图、复用素材联系表、新首页/响铃页截图、待响/响铃/终态服务与构建日志。第一阶段验证记录保留在 `docs/phase1/VALIDATION.md`。

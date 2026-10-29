@@ -1,0 +1,146 @@
+[
+  {
+    "path": "lib/arm64-v8a/libCtaApiLib.so",
+    "bytes": 502272
+  },
+  {
+    "path": "lib/arm64-v8a/libEncryptorP.so",
+    "bytes": 83928
+  },
+  {
+    "path": "lib/arm64-v8a/libShanYCore.so",
+    "bytes": 9920
+  },
+  {
+    "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "bytes": 10096
+  },
+  {
+    "path": "lib/arm64-v8a/libc++_shared.so",
+    "bytes": 1292440
+  },
+  {
+    "path": "lib/arm64-v8a/libcocklogic-1.1.3.so",
+    "bytes": 30160
+  },
+  {
+    "path": "lib/arm64-v8a/libconscrypt_jni.so",
+    "bytes": 2103592
+  },
+  {
+    "path": "lib/arm64-v8a/libdatastore_shared_counter.so",
+    "bytes": 7784
+  },
+  {
+    "path": "lib/arm64-v8a/libhoko_blur.so",
+    "bytes": 14080
+  },
+  {
+    "path": "lib/arm64-v8a/libhttpdns.so",
+    "bytes": 261560
+  },
+  {
+    "path": "lib/arm64-v8a/libmarsxlog.so",
+    "bytes": 537104
+  },
+  {
+    "path": "lib/arm64-v8a/libmediapipe_tasks_audio_jni.so",
+    "bytes": 7353288
+  },
+  {
+    "path": "lib/arm64-v8a/libphase.so",
+    "bytes": 10978120
+  },
+  {
+    "path": "lib/arm64-v8a/librive-android.so",
+    "bytes": 5667576
+  },
+  {
+    "path": "lib/arm64-v8a/libsentry-android.so",
+    "bytes": 19928
+  },
+  {
+    "path": "lib/arm64-v8a/libsentry.so",
+    "bytes": 871000
+  },
+  {
+    "path": "lib/arm64-v8a/libtnet-3.1.14.so",
+    "bytes": 362872
+  },
+  {
+    "path": "lib/arm64-v8a/libumeng-spy.so",
+    "bytes": 398472
+  },
+  {
+    "path": "lib/armeabi-v7a/libCtaApiLib.so",
+    "bytes": 280448
+  },
+  {
+    "path": "lib/armeabi-v7a/libEncryptorP.so",
+    "bytes": 83736
+  },
+  {
+    "path": "lib/armeabi-v7a/libShanYCore.so",
+    "bytes": 17888
+  },
+  {
+    "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+    "bytes": 7252
+  },
+  {
+    "path": "lib/armeabi-v7a/libc++_shared.so",
+    "bytes": 872436
+  },
+  {
+    "path": "lib/armeabi-v7a/libcocklogic-1.1.3.so",
+    "bytes": 25824
+  },
+  {
+    "path": "lib/armeabi-v7a/libconscrypt_jni.so",
+    "bytes": 1284028
+  },
+  {
+    "path": "lib/armeabi-v7a/libdatastore_shared_counter.so",
+    "bytes": 5916
+  },
+  {
+    "path": "lib/armeabi-v7a/libhoko_blur.so",
+    "bytes": 12272
+  },
+  {
+    "path": "lib/armeabi-v7a/libhttpdns.so",
+    "bytes": 190476
+  },
+  {
+    "path": "lib/armeabi-v7a/libmarsxlog.so",
+    "bytes": 442024
+  },
+  {
+    "path": "lib/armeabi-v7a/libmediapipe_tasks_audio_jni.so",
+    "bytes": 4414572
+  },
+  {
+    "path": "lib/armeabi-v7a/libphase.so",
+    "bytes": 8498232
+  },
+  {
+    "path": "lib/armeabi-v7a/librive-android.so",
+    "bytes": 5412792
+  },
+  {
+    "path": "lib/armeabi-v7a/libsentry-android.so",
+    "bytes": 14364
+  },
+  {
+    "path": "lib/armeabi-v7a/libsentry.so",
+    "bytes": 575736
+  },
+  {
+    "path": "lib/armeabi-v7a/libtnet-3.1.14.so",
+    "bytes": 250244
+  },
+  {
+    "path": "lib/armeabi-v7a/libumeng-spy.so",
+    "bytes": 200152
+  }
+]

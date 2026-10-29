@@ -1,0 +1,22 @@
+INSTRUMENTATION_RESULT: alarm_phase=ringing
+INSTRUMENTATION_RESULT: exact_alarm_allowed=true
+INSTRUMENTATION_RESULT: failure=java.lang.AssertionError: notification did not launch WakeActivity while locked
+	at io.moreless.tide.rebuild.AlarmChecks.require(AlarmChecks.java:14)
+	at io.moreless.tide.rebuild.AlarmChecks.onStart(AlarmChecks.java:46)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2661)
+
+INSTRUMENTATION_RESULT: fullscreen_allowed=true
+INSTRUMENTATION_RESULT: interactive_after=true
+INSTRUMENTATION_RESULT: interactive_before=false
+INSTRUMENTATION_RESULT: keyguard_after=true
+INSTRUMENTATION_RESULT: keyguard_before=true
+INSTRUMENTATION_RESULT: notifications_enabled=true
+INSTRUMENTATION_RESULT: playback=playing
+INSTRUMENTATION_RESULT: screenshot=/storage/emulated/0/Android/data/io.moreless.tide.rebuild/files/lock-check.png
+INSTRUMENTATION_RESULT: trigger=1793190976309
+INSTRUMENTATION_RESULT: wake_activity_hits=0
+INSTRUMENTATION_RESULT: wake_alarm_importance=4
+INSTRUMENTATION_RESULT: wake_alarm_sound=null
+INSTRUMENTATION_RESULT: wake_silent_test_importance=4
+INSTRUMENTATION_RESULT: wake_silent_test_sound=null
+INSTRUMENTATION_CODE: 0

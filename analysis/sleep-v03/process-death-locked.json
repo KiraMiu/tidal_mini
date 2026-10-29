@@ -1,0 +1,40 @@
+{
+  "before": {
+    "phase": "armed",
+    "sleepStarted": "1793180660171",
+    "silentTest": "true",
+    "sceneFile": "liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+    "sceneName": "雨天",
+    "ringtoneName": "光",
+    "ringUntil": "0",
+    "ringtone": "alarm_1.m4a",
+    "trigger": "1793180690165",
+    "token": "ee13af98-ddfd-4cc0-bd47-17029ce1063e",
+    "minute": "14",
+    "ringtoneKind": "asset",
+    "hour": "17",
+    "ringtoneUri": "content://settings/system/alarm_alert",
+    "ringtoneFile": null
+  },
+  "after": {
+    "phase": "ringing",
+    "sleepStarted": "1793180660171",
+    "silentTest": "true",
+    "sceneFile": "liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+    "sceneName": "雨天",
+    "ringtoneName": "光",
+    "ringUntil": "1793181290179",
+    "ringtone": "alarm_1.m4a",
+    "trigger": "1793180690165",
+    "token": "ee13af98-ddfd-4cc0-bd47-17029ce1063e",
+    "minute": "14",
+    "ringtoneKind": "asset",
+    "hour": "17",
+    "ringtoneUri": "content://settings/system/alarm_alert",
+    "ringtoneFile": null
+  },
+  "killed_pid": "2323",
+  "new_pid": "3450",
+  "awake": true,
+  "resumed_wake_activity": true
+}

@@ -1,0 +1,22 @@
+/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/tests/CoreTest.java:4: 错误: 找不到符号
+import io.moreless.tide.rebuild.core.PlaybackIntent;
+                                    ^
+  符号:   类 PlaybackIntent
+  位置: 程序包 io.moreless.tide.rebuild.core
+/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/tests/CoreTest.java:20: 错误: 找不到符号
+  PlaybackIntent play=new PlaybackIntent();play.play();play.interrupt(true);play.pause();
+  ^
+  符号:   类 PlaybackIntent
+  位置: 类 CoreTest
+/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/tests/CoreTest.java:20: 错误: 找不到符号
+  PlaybackIntent play=new PlaybackIntent();play.play();play.interrupt(true);play.pause();
+                          ^
+  符号:   类 PlaybackIntent
+  位置: 类 CoreTest
+3 个错误
+Traceback (most recent call last):
+  File "/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/scripts/test.py", line 13, in <module>
+    subprocess.run(['javac','-d',str(out),*map(str,sources),str(root/'tests/CoreTest.java')],check=True)
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['javac', '-d', '/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/build/tests/20261028-160555-527705', '/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/app/src/main/java/io/moreless/tide/rebuild/core/BreathScript.java', '/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/app/src/main/java/io/moreless/tide/rebuild/core/BreathTimeline.java', '/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/app/src/main/java/io/moreless/tide/rebuild/core/SessionTimer.java', '/Users/cxmacstudio01/Documents/Codes/mine/Android/潮汐/TideRebuild/tests/CoreTest.java']' returned non-zero exit status 1.

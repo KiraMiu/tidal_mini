@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "5e54abfcc496e0000669d2c9",
+    "created_at": 1515078864,
+    "updated_at": 1621492784,
+    "category": "normal",
+    "name": {
+      "en": "Ocean",
+      "zh-Hans": "海洋",
+      "zh-Hant": "海洋",
+      "ja": "海",
+      "es": "Océano",
+      "ko": "바다",
+      "ru": "Океан"
+    },
+    "sub_title": {
+      "en": "4 p.m. by the shore",
+      "zh-Hans": "下午四点的海边",
+      "zh-Hant": "下午四點的海邊",
+      "ja": "午後四時の海辺",
+      "es": "16:00 por el océano",
+      "ko": "오후 4시에 바닷가에서",
+      "ru": "16:00 на берегу"
+    },
+    "description": {
+      "en": "The sea hath its pearls,\nthe heaven hath its stars.",
+      "zh-Hans": "大海蕴藏着它的珍珠\n蓝天怀抱着它的星辰",
+      "zh-Hant": "大海蘊藏著它的珍珠\n藍天懷抱著它的星辰"
+    },
+    "description_author": {
+      "en": "Heine",
+      "zh-Hans": "海涅",
+      "zh-Hant": "海涅"
+    },
+    "image": "https://pics.tide.moreless.io/scenes/lit6WedUkWG58u9L-N4aC8P3819A",
+    "video_cover_key": "sounds/lvDVU9NMXgW_nxE-dHVpyxgOr3_d",
+    "video_cover_url": "https://pics.tide.moreless.io/scenes/Fr2CY3uy5AfjjSH4cIUL8Cd8O2vo",
+    "video_cover_demo_url": "https://pics.tide.moreless.io/scenes/FmjsimStawGdx2ZLd-S4dfBYQi7C",
+    "video_cover_primary_color": "167,151,145,1",
+    "video_bundle": "video_ocean.mp4",
+    "scene_masks": [
+      "154,199,196,0.56",
+      "48,116,138,0.56"
+    ],
+    "primary_color": "112,97,91,1",
+    "resource": {
+      "guid": "5e54ab9cc496e0000669d2c7",
+      "name": "",
+      "hash": "lqVsojtUa0PGHanLKJwjWHMPyhP3",
+      "hash_key": "sounds/lqVsojtUa0PGHanLKJwjWHMPyhP3",
+      "bundle": "lqVsojtUa0PGHanLKJwjWHMPyhP3.m4a",
+      "demo_sound_url": null,
+      "duration": 1500,
+      "has_white_noise": true,
+      "has_human_voice": false,
+      "speaker_id": "",
+      "participant_ids": [],
+      "created_at": 0,
+      "speaker": null,
+      "participants": null
+    },
+    "share_qr_code_url": "https://pics.tide.moreless.io/share_qr_codes/preset_ocean.png"
+  },
+  {
+    "id": "5e54a9c8c496e0000669d2c3",
+    "created_at": 1515078864,
+    "updated_at": 1618201379,
+    "category": "normal",
+    "name": {
+      "en": "Rain",
+      "zh-Hans": "雨天",
+      "zh-Hant": "雨天",
+      "ja": "雨の日",
+      "es": "Lluvia",
+      "ko": "비",
+      "ru": "Дождь"
+    },
+    "sub_title": {
+      "en": "Raindrops drip on the leaves",
+      "zh-Hans": "落在树叶上的雨",
+      "zh-Hant": "落在樹葉上的雨",
+      "ja": "この葉に落ちた雨の雫",
+      "es": "Gotas caídas sobre las hojas",
+      "ko": "빗방울이 나뭇잎에 내렸습니다",
+      "ru": "Капли дождя на листьях"
+    },
+    "description": {
+      "en": "The wind alone it is makes every sound,\nshaking down crystals on the leaves below.",
+      "zh-Hans": "风发出每一个声音\n摇动每一片叶子上的水晶",
+      "zh-Hant": "風發出每一個聲音\n搖動每一片葉子上的水晶"
+    },
+    "description_author": {
+      "en": "Charles Bukowski",
+      "zh-Hans": "查尔斯·布可夫斯基",
+      "zh-Hant": "查爾斯·布可夫斯基"
+    },
+    "image": "https://pics.tide.moreless.io/scenes/FqjeRfLgk-rTyE0x1MbAIseiD9gs",
+    "video_cover_key": "sounds/lthUsMqIyHyW5-3oJNZ13fp2-RNZ",
+    "video_cover_url": "https://pics.tide.moreless.io/scenes/FuZ3392tbhMoOOCVlNMwlzx9za-e",
+    "video_cover_demo_url": "https://pics.tide.moreless.io/scenes/FreEalIYX3Bo1KwzOKHWT5AsYs5I",
+    "video_cover_primary_color": "122,133,128,1",
+    "scene_masks": [
+      "125,186,214,0.56",
+      "4,48,62,0.56"
+    ],
+    "primary_color": "64,99,108,1",
+    "resource": {
+      "guid": "5e54a986c496e0000669d2c1",
+      "name": "",
+      "hash": "liBzOYK1Pk1_5dwWAmDXsugayl_f",
+      "hash_key": "sounds/liBzOYK1Pk1_5dwWAmDXsugayl_f",
+      "bundle": "liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+      "demo_sound_url": null,
+      "duration": 1500,
+      "has_white_noise": true,
+      "has_human_voice": false,
+      "speaker_id": "",
+      "participant_ids": [],
+      "created_at": 0,
+      "speaker": null,
+      "participants": null
+    },
+    "share_qr_code_url": "https://pics.tide.moreless.io/share_qr_codes/preset_rain.png"
+  },
+  {
+    "id": "5a787347fbcf3900067aac0b",
+    "created_at": 1515078864,
+    "updated_at": 1616055685,
+    "category": "normal",
+    "name": {
+      "en": "Muse",
+      "zh-Hans": "冥想",
+      "zh-Hant": "冥想",
+      "ja": "瞑想",
+      "es": "Musa",
+      "ko": "뮤즈",
+      "ru": "Муза"
+    },
+    "sub_title": {
+      "en": "Light falling from the sky",
+      "zh-Hans": "天上落下的光",
+      "zh-Hant": "天上落下的光",
+      "ja": "空から舞い降りた光",
+      "es": "Luces que caen del cielo",
+      "ko": "하늘에서 빛이 쏟아졌습니다",
+      "ru": "Свет, падающий с неба"
+    },
+    "description": {
+      "en": "If you try to understand the world in a dialectics way, you will find that ephemeral is eternal.",
+      "zh-Hans": "流逝的不是时间\n是我们",
+      "zh-Hant": "流逝的不是時間\n是我們"
+    },
+    "description_author": {
+      "en": "Tagore",
+      "zh-Hans": "泰戈尔",
+      "zh-Hant": "泰戈爾"
+    },
+    "image": "https://pics.tide.moreless.io/scenes/lit6WedUkWG58u9L-N4aC8P3819A",
+    "video_cover_key": "sounds/lpkLj4YX6n8TFs6UyclsIdkcvCqw",
+    "video_cover_url": "https://pics.tide.moreless.io/scenes/Fsmnd5VeHkzTYANkTOSDK3VG4iR3",
+    "video_cover_demo_url": "https://pics.tide.moreless.io/scenes/Fuhg3e5YCd3nBlFb_wSJIMD5iRPn",
+    "video_cover_primary_color": "80,51,40,1",
+    "primary_color": "141,88,69,1",
+    "resource": {
+      "guid": "5a787347fbcf3900067aac0b",
+      "name": "声音场景 - 冥想 - 音频资源",
+      "demo_sound_url": "https://pics.tide.moreless.io/demo_sounds/Fr1nzNOtb6ZEVFLPrCJGXc08SS4k",
+      "demo_multichannel_url": "",
+      "demo_dolby_url": "",
+      "hash": "ltqadXtINtbwxaEsHdTY7cmaR-MA",
+      "hash_key": "sounds/ltqadXtINtbwxaEsHdTY7cmaR-MA",
+      "bundle": "ltqadXtINtbwxaEsHdTY7cmaR-MA.m4a",
+      "multichannel_hash": "",
+      "multichannel_hash_key": "",
+      "dolby_hash": "",
+      "dolby_hash_key": "",
+      "duration": 0,
+      "size_in_bytes": 10770704,
+      "status": "published",
+      "has_white_noise": true,
+      "has_human_voice": false,
+      "is_default_duration": false,
+      "updated_at": 16577631449698152,
+      "created_at": 0
+    },
+    "share_qr_code_url": "https://pics.tide.moreless.io/share_qr_codes/preset_muse.png"
+  },
+  {
+    "id": "5a5323f3edc9de0005e85ba6",
+    "name": {
+      "en": "Forest",
+      "zh-Hans": "森林",
+      "zh-Hant": "森林",
+      "ja": "森",
+      "es": "Bosque",
+      "ko": "숲",
+      "ru": "Лес",
+      "_tr": ""
+    },
+    "track_infos": [],
+    "category": "normal",
+    "access": [
+      "free"
+    ],
+    "image": "https://pics.tide.moreless.io/scenes/Fo1jwJhP6kVNbqrj4zXZZNcEuCZ4",
+    "video_cover_key": "sounds/lvV6ZcDUVgMzW0kcKWApGeEyTMwG",
+    "video_cover_url": "https://pics.tide.moreless.io/scenes/FsWErS8zp2GYmLHEzC--1Bha0Ysf",
+    "video_cover_demo_url": "https://pics.tide.moreless.io/scenes/FuCvarLNU2ehHOnuAoKoxDIbrcje",
+    "video_cover_primary_color": "59,84,71,1",
+    "description": {
+      "en": "A tree that may in summer wear.\nA nest of robins in her hair.",
+      "zh-Hans": "树木那一袭夏日的秀发\n是知更鸟栖息繁衍的家",
+      "zh-Hant": "樹木那一襲夏日的秀髮\n是知更鳥棲息繁衍的家",
+      "ja": "A tree that may in summer wear.\nA nest of robins in her hair.",
+      "es": "A tree that may in summer wear.\nA nest of robins in her hair.",
+      "ko": "A tree that may in summer wear.\nA nest of robins in her hair.",
+      "ru": "A tree that may in summer wear.\nA nest of robins in her hair.",
+      "_tr": ""
+    },
+    "description_author": {
+      "en": "Joyce Kilmer",
+      "zh-Hans": "乔艾斯·基尔默",
+      "zh-Hant": "喬艾斯·基爾默",
+      "ja": "Joyce Kilmer",
+      "es": "Joyce Kilmer",
+      "ko": "Joyce Kilmer",
+      "ru": "Joyce Kilmer",
+      "_tr": ""
+    },
+    "sub_title": {
+      "en": "Quiet rainforest in the dawn",
+      "zh-Hans": "轻静的晨间雨林",
+      "zh-Hant": "輕靜的晨間雨林",
+      "ja": "朝の静かな熱帯雨林",
+      "es": "Selva tranquila al amanecer",
+      "ko": "새벽에 조용한 우림에서",
+      "ru": "Красивый тропический лес на рассвете",
+      "_tr": ""
+    },
+    "share_qr_code_url": "https://pics.tide.moreless.io/scene_qr_code/Fowzn4Hv_1Og4k_mhQlqUcoT8AbH",
+    "tags_v2": [
+      {
+        "id": "5f19696c64d8e800072bdf8d",
+        "name": {
+          "en": "Free",
+          "zh-Hans": "免费",
+          "zh-Hant": "免費",
+          "ja": "無料",
+          "es": "Free",
+          "ko": "무료",
+          "ru": "Free",
+          "_tr": ""
+        },
+        "sort_key": 0,
+        "key": "Free",
+        "type": "scene",
+        "status": "published",
+        "scene_ids": [],
+        "meditation_ids": [],
+        "sleep_story_ids": [],
+        "article_ids": []
+      },
+      {
+        "id": "5df9f013c9efb1000622555c",
+        "name": {
+          "en": "Nature",
+          "zh-Hans": "自然",
+          "zh-Hant": "自然",
+          "ja": "自然",
+          "es": "Naturaleza",
+          "ko": "자연",
+          "ru": "Природа",
+          "_tr": ""
+        },
+        "sort_key": 2,
+        "key": "Nature",
+        "type": "scene",
+        "status": "published",
+        "scene_ids": [],
+        "meditation_ids": [],
+        "sleep_story_ids": [],
+        "article_ids": []
+      },
+      {
+        "id": "5df9efdcc9efb1000622555b",
+        "name": {
+          "en": "Relax",
+          "zh-Hans": "放松",
+          "zh-Hant": "放鬆",
+          "ja": "リラックス",
+          "es": "Relajar",
+          "ko": "휴식",
+          "ru": "Досуг",
+          "_tr": ""
+        },
+        "sort_key": 8,
+        "key": "Relax",
+        "type": "scene",
+        "status": "published",
+        "scene_ids": [],
+        "meditation_ids": [],
+        "sleep_story_ids": [],
+        "article_ids": []
+      }
+    ],
+    "primary_color": "28,46,31,1",
+    "updated_at": 1571995418,
+    "created_at": 1515398131,
+    "demo_sound_url": "https://pics.tide.moreless.io/demo_sounds/FhKGRbSyFNFaq7CDhqEbT0vV2SF5",
+    "resource": {
+      "guid": "5a5323f3edc9de0005e85ba6",
+      "name": "声音场景 - 森林 - 音频资源",
+      "demo_sound_url": "https://pics.tide.moreless.io/demo_sounds/FhKGRbSyFNFaq7CDhqEbT0vV2SF5",
+      "demo_multichannel_url": "",
+      "demo_dolby_url": "",
+      "hash": "lkSSHbxssZEJ1C7fqZosIEjQHnKB",
+      "hash_key": "sounds/lkSSHbxssZEJ1C7fqZosIEjQHnKB",
+      "multichannel_hash": "",
+      "bundle": "lkSSHbxssZEJ1C7fqZosIEjQHnKB.m4a",
+      "multichannel_hash_key": "",
+      "dolby_hash": "",
+      "dolby_hash_key": "",
+      "duration": 0,
+      "size_in_bytes": 12001552,
+      "status": "published",
+      "has_white_noise": true,
+      "has_human_voice": false,
+      "is_default_duration": false,
+      "updated_at": 16544970715428408,
+      "created_at": 0
+    }
+  },
+  {
+    "id": "5a560d113ea0bf00086a36a8",
+    "name": {
+      "en": "Campfire",
+      "zh-Hans": "篝火",
+      "zh-Hant": "篝火",
+      "ja": "篝火",
+      "es": "Hoguera",
+      "ko": "불",
+      "ru": "Огонь",
+      "_tr": ""
+    },
+    "video_cover_key": "sounds/loYXHbXsjvGw0lxZsZzz2S46IGjJ",
+    "video_cover_url": "https://pics.tide.moreless.io/scenes/FtKAVtSd4-yt_xrNEGL3-8RWSWX7",
+    "video_cover_demo_url": "https://pics.tide.moreless.io/scenes/FgPp1UWEwy6IG0jAYUJh3UN-JpgT",
+    "video_cover_primary_color": "34,22,20,1",
+    "access": [
+      "free"
+    ],
+    "image": "https://pics.tide.moreless.io/scenes/ls2p6NHt5_cln0BY6adm863DVI9J",
+    "demo_sound_url": "http://pics.tide.moreless.io/demo_sounds/FlHvCo7M0IsMxaqWratEsaeTNOfV",
+    "demo_sound_url_mp3": "http://pics.tide.moreless.io/demo_sounds/FlHvCo7M0IsMxaqWratEsaeTNOfV",
+    "category": "normal",
+    "preset": true,
+    "duration": 1500,
+    "description": {
+      "en": "Time bursts into flame and disappears.",
+      "zh-Hans": "时间迸出火焰\n又消失无踪",
+      "zh-Hant": "時間迸出火焰\n又消失無蹤",
+      "ja": "Time bursts into flame and disappears.",
+      "es": "Time bursts into flame and disappears.",
+      "ko": "Time bursts into flame and disappears.",
+      "ru": "Time bursts into flame and disappears.",
+      "_tr": ""
+    },
+    "description_author": {
+      "en": "Tomaž Šalamun",
+      "zh-Hans": "托马斯·萨拉蒙",
+      "zh-Hant": "托馬斯·薩拉蒙",
+      "ja": "Tomaž Šalamun",
+      "es": "Tomaž Šalamun",
+      "ko": "Tomaž Šalamun",
+      "ru": "Tomaž Šalamun",
+      "_tr": ""
+    },
+    "sub_title": {
+      "en": "Warm and moderate flames",
+      "zh-Hans": "温暖而热烈的火焰",
+      "zh-Hant": "溫暖而熱烈的火焰",
+      "ja": "暖かくて熱烈な炎",
+      "es": "Llamas cálidos y animados",
+      "ko": "따뜻하고 적당한 불꽃",
+      "ru": "Теплый и умеренный огонь",
+      "_tr": ""
+    },
+    "primary_color": "34,22,20,1",
+    "trial_started_local_time": "",
+    "trial_ended_local_time": "",
+    "resource": {
+      "guid": "5a560a953ea0bf00086a3698",
+      "name": "",
+      "hash": "luadFKfSat4vp63vyZ_1zlC-8rnS",
+      "hash_key": "sounds/luadFKfSat4vp63vyZ_1zlC-8rnS",
+      "bundle": "luadFKfSat4vp63vyZ_1zlC-8rnS.m4a",
+      "demo_sound_url": null,
+      "duration": 1500,
+      "has_white_noise": true,
+      "has_human_voice": false,
+      "speaker_id": "",
+      "participant_ids": [],
+      "created_at": 0,
+      "speaker": null,
+      "participants": null
+    },
+    "updated_at": 1616055685,
+    "created_at": 1515588881,
+    "share_qr_code_url": "http://pics.tide.moreless.io/scene_qr_code/FpIJmPPmJVtKFnTdjhLq0CX42kYB"
+  },
+  {
+    "id": "5fbdfa18fd5de000069bc0db",
+    "category": "mixed",
+    "sort_key": 14,
+    "description_author": {},
+    "sub_title": {},
+    "author": {},
+    "share_qr_code_url": "https://pics.tide.moreless.io/scene_qr_code/Fsc2TUuUoXTAxEBWC0Ok7LdWEPIq",
+    "cover_data": {
+      "cover_type": "gradient",
+      "cover_id": "350"
+    },
+    "local_id": "",
+    "creator": {
+      "en": "Sound Lab",
+      "zh-Hans": "Sound Lab",
+      "zh-Hant": "Sound Lab",
+      "ja": "Sound Lab",
+      "es": "Sound Lab",
+      "ko": "Sound Lab",
+      "ru": "Sound Lab"
+    },
+    "creator_avatar": "https://pics.tide.moreless.io/scenes/FogMnStZH30HHed-9iYpjZSfik5U",
+    "track_infos": [
+      {
+        "volume": 20,
+        "scene": {
+          "id": "5e54abfcc496e0000669d2c9",
+          "category": "normal",
+          "sort_key": 125,
+          "description_author": {
+            "en": "Heine",
+            "zh-Hans": "海涅",
+            "zh-Hant": "海涅",
+            "ja": "Heine",
+            "es": "Heine",
+            "ko": "Heine",
+            "ru": "Heine"
+          },
+          "sub_title": {
+            "en": "4 p.m. by ocean",
+            "zh-Hans": "下午四点的海边",
+            "zh-Hant": "下午四點的海邊",
+            "ja": "午後四時の海辺",
+            "es": "16:00 por el océano",
+            "ko": "오후 4시에 바닷가에서",
+            "ru": "16:00 на берегу"
+          },
+          "author": {},
+          "share_qr_code_url": "https://pics.tide.moreless.io/scene_qr_code/FtIBMd3axKjT6EXueBuPahXLm9YB",
+          "cover_data": {
+            "cover_type": "",
+            "cover_id": ""
+          },
+          "local_id": "",
+          "creator": {},
+          "creator_avatar": "",
+          "track_infos": [],
+          "video_cover_key": "sounds/lvDVU9NMXgW_nxE-dHVpyxgOr3_d",
+          "video_cover_url": "https://pics.tide.moreless.io/scenes/Fr2CY3uy5AfjjSH4cIUL8Cd8O2vo",
+          "video_cover_demo_url": "https://pics.tide.moreless.io/scenes/FmjsimStawGdx2ZLd-S4dfBYQi7C",
+          "video_cover_primary_color": "167,151,145,1",
+          "simple_tags": [
+            {
+              "id": "5ee1ddcc62017d000ac76f18",
+              "name": {
+                "en": "Performance",
+                "zh-Hans": "效率",
+                "zh-Hant": "效率",
+                "ja": "効率",
+                "es": "Performance",
+                "ko": "효율",
+                "ru": "Performance"
+              }
+            },
+            {
+              "id": "5df9efadc9efb1000622555a",
+              "name": {
+                "en": "Focus",
+                "zh-Hans": "专注",
+                "zh-Hant": "專注",
+                "ja": "集中",
+                "es": "Enfoque",
+                "ko": "집중 ",
+                "ru": "Фокус"
+              }
+            }
+          ],
+          "resource": {
+            "guid": "5e54abfcc496e0000669d2c9",
+            "name": "声音场景 - 海洋 - 音频资源",
+            "hash": "lqVsojtUa0PGHanLKJwjWHMPyhP3",
+            "hash_key": "sounds/lqVsojtUa0PGHanLKJwjWHMPyhP3",
+            "bundle": "lqVsojtUa0PGHanLKJwjWHMPyhP3.m4a",
+            "demo_sound_url": "https://pics.tide.moreless.io/demo_sounds/FiRHJJNr7fKuUX6sRyNmdyuRm1MG",
+            "duration": 0,
+            "size_in_bytes": 4699333,
+            "status": "published",
+            "has_white_noise": true,
+            "has_human_voice": false,
+            "is_default_duration": false,
+            "updated_at": 16145676140380728,
+            "created_at": 0
+          },
+          "purchase_info": {
+            "product_id": "",
+            "alias": null,
+            "price": 0,
+            "description": ""
+          },
+          "name": {
+            "en": "Ocean",
+            "zh-Hans": "海洋",
+            "zh-Hant": "海洋",
+            "ja": "海",
+            "es": "Océano",
+            "ko": "바다",
+            "ru": "Океан"
+          },
+          "description": {
+            "en": "The sea hath its pearls,\nthe heaven hath its stars.",
+            "zh-Hans": "大海蕴藏着它的珍珠\n蓝天怀抱着它的星辰 ",
+            "zh-Hant": "大海蘊藏著它的珍珠\n藍天懷抱著它的星辰 ",
+            "ja": "The sea hath its pearls,\nthe heaven hath its stars.",
+            "es": "The sea hath its pearls,\nthe heaven hath its stars.",
+            "ko": "The sea hath its pearls,\nthe heaven hath its stars.",
+            "ru": "The sea hath its pearls,\nthe heaven hath its stars."
+          },
+          "duration_description": {},
+          "image": "https://pics.tide.moreless.io/scenes/Fl0e1RGrAgxf4CRg37ENDfYIByDl",
+          "primary_color": "93,160,174,1",
+          "fresh_until": 0,
+          "style": {
+            "show_detail_page": false,
+            "size": ""
+          },
+          "status": "published",
+          "trial_started_local_time": "",
+          "trial_ended_local_time": "",
+          "access": [
+            "free"
+          ],
+          "updated_at": 1594974580,
+          "created_at": 1582607356,
+          "search_annotations": [
+            {
+              "id": "5ff6c698c1f3c500015c0104",
+              "name": "白噪音",
+              "en": [],
+              "zh-Hans": [
+                "白噪音",
+                "白噪",
+                "声音场景",
+                "声音",
+                "背景音",
+                "背景声"
+              ],
+              "zh-Hant": [
+                "白噪音",
+                "白噪",
+                "聲音場景",
+                "聲音",
+                "背景音",
+                "背景聲"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "5ff6d368c1f3c500015c0106",
+              "name": "助眠",
+              "en": [],
+              "zh-Hans": [
+                "助眠",
+                "睡眠",
+                "睡",
+                "睡觉",
+                "睡前",
+                "睡眠质量",
+                "催眠"
+              ],
+              "zh-Hant": [
+                "助眠",
+                "睡眠",
+                "睡",
+                "睡覺",
+                "睡前",
+                "睡眠質量",
+                "催眠"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "5ff6d75ac1f3c500015c0109",
+              "name": "写作业",
+              "en": [],
+              "zh-Hans": [
+                "自习",
+                "作业",
+                "写作业",
+                "做功课",
+                "功课",
+                "做题",
+                "刷题",
+                "晚自修",
+                "晚自习"
+              ],
+              "zh-Hant": [
+                "自習",
+                "作業",
+                "寫作業",
+                "做功課",
+                "功課",
+                "做題",
+                "刷題",
+                "晚自修",
+                "晚自習"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "5ff6d950c1f3c500015c010a",
+              "name": "免费",
+              "en": [],
+              "zh-Hans": [
+                "免费",
+                "无料"
+              ],
+              "zh-Hant": [
+                "免費",
+                "無料"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "5ff6db06c1f3c500015c010b",
+              "name": "看书",
+              "en": [],
+              "zh-Hans": [
+                "看",
+                "看书",
+                "读书",
+                "阅读",
+                "书"
+              ],
+              "zh-Hant": [
+                "看",
+                "看書",
+                "讀書",
+                "閱讀",
+                "書"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "5ff7fe020f49ca0001ddb5a2",
+              "name": "困",
+              "en": [],
+              "zh-Hans": [
+                "困",
+                "困倦",
+                "好困",
+                "困了"
+              ],
+              "zh-Hant": [
+                "困",
+                "睏倦",
+                "好睏",
+                "困了"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "600930953b14c60001578275",
+              "name": "安静",
+              "en": [],
+              "zh-Hans": [
+                "安静"
+              ],
+              "zh-Hant": [
+                "安靜"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "6020b845a860f400013ededb",
+              "name": "自然",
+              "en": [],
+              "zh-Hans": [
+                "自然",
+                "大自然"
+              ],
+              "zh-Hant": [
+                "自然",
+                "大自然"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            }
+          ],
+          "stats": {
+            "using_people_count": 0,
+            "using_people_avatars": null,
+            "download_count": 0
+          },
+          "background": {}
+        },
+        "scene_id": "5e54abfcc496e0000669d2c9"
+      },
+      {
+        "volume": 60,
+        "scene": {
+          "id": "5a560d113ea0bf00086a36a8",
+          "category": "normal",
+          "sort_key": 111,
+          "description_author": {
+            "en": "Tomaž Šalamun",
+            "zh-Hans": "托马斯·萨拉蒙",
+            "zh-Hant": "托馬斯·薩拉蒙",
+            "ja": "Tomaž Šalamun",
+            "es": "Tomaž Šalamun",
+            "ko": "Tomaž Šalamun",
+            "ru": "Tomaž Šalamun"
+          },
+          "sub_title": {
+            "en": "Warm and moderate flames",
+            "zh-Hans": "温暖而热烈的火焰",
+            "zh-Hant": "溫暖而熱烈的火焰",
+            "ja": "暖かくて熱烈な炎",
+            "es": "Llamas cálidos y animados",
+            "ko": "따뜻하고 적당한 불꽃",
+            "ru": "Теплый и умеренный огонь"
+          },
+          "author": {},
+          "share_qr_code_url": "https://pics.tide.moreless.io/scene_qr_code/Fhko4uH3iLPcNC9HzDQ6aUg94D7F",
+          "cover_data": {
+            "cover_type": "",
+            "cover_id": ""
+          },
+          "local_id": "",
+          "creator": {},
+          "creator_avatar": "",
+          "track_infos": [],
+          "video_cover_key": "sounds/loYXHbXsjvGw0lxZsZzz2S46IGjJ",
+          "video_cover_url": "https://pics.tide.moreless.io/scenes/FtKAVtSd4-yt_xrNEGL3-8RWSWX7",
+          "video_cover_demo_url": "https://pics.tide.moreless.io/scenes/FgPp1UWEwy6IG0jAYUJh3UN-JpgT",
+          "video_cover_primary_color": "34,22,20,1",
+          "simple_tags": [
+            {
+              "id": "5fbf6790e67cf60006d3708d",
+              "name": {
+                "en": "Sleep",
+                "zh-Hans": "助眠",
+                "zh-Hant": "助眠",
+                "ja": "睡眠",
+                "es": "Dormir",
+                "ko": "수면",
+                "ru": "Сон"
+              }
+            }
+          ],
+          "resource": {
+            "guid": "5a560d113ea0bf00086a36a8",
+            "name": "声音场景 - 篝火 - 音频资源",
+            "hash": "luadFKfSat4vp63vyZ_1zlC-8rnS",
+            "hash_key": "sounds/luadFKfSat4vp63vyZ_1zlC-8rnS",
+            "bundle": "luadFKfSat4vp63vyZ_1zlC-8rnS.m4a",
+            "demo_sound_url": "http://pics.tide.moreless.io/demo_sounds/FlHvCo7M0IsMxaqWratEsaeTNOfV",
+            "duration": 0,
+            "size_in_bytes": 11976836,
+            "status": "published",
+            "has_white_noise": true,
+            "has_human_voice": false,
+            "is_default_duration": false,
+            "updated_at": 15719079156760720,
+            "created_at": 0
+          },
+          "purchase_info": {
+            "product_id": "",
+            "alias": [],
+            "price": 0,
+            "description": ""
+          },
+          "name": {
+            "en": "Campfire",
+            "zh-Hans": "篝火",
+            "zh-Hant": "篝火",
+            "ja": "篝火",
+            "es": "Hoguera",
+            "ko": "불",
+            "ru": "Огонь"
+          },
+          "description": {
+            "en": "Time bursts into flame and disappears.",
+            "zh-Hans": "时间迸出火焰\n又消失无踪",
+            "zh-Hant": "時間迸出火焰\n又消失無蹤",
+            "ja": "Time bursts into flame and disappears.",
+            "es": "Time bursts into flame and disappears.",
+            "ko": "Time bursts into flame and disappears.",
+            "ru": "Time bursts into flame and disappears."
+          },
+          "duration_description": {},
+          "image": "https://pics.tide.moreless.io/scenes/ls2p6NHt5_cln0BY6adm863DVI9J",
+          "primary_color": "34,22,20,1",
+          "fresh_until": 0,
+          "style": {
+            "show_detail_page": false,
+            "size": ""
+          },
+          "status": "published",
+          "trial_started_local_time": "",
+          "trial_ended_local_time": "",
+          "access": [
+            "free"
+          ],
+          "updated_at": 1571995301,
+          "created_at": 1515588881,
+          "search_annotations": [
+            {
+              "id": "5ff6c698c1f3c500015c0104",
+              "name": "白噪音",
+              "en": [],
+              "zh-Hans": [
+                "白噪音",
+                "白噪",
+                "声音场景",
+                "声音",
+                "背景音",
+                "背景声"
+              ],
+              "zh-Hant": [
+                "白噪音",
+                "白噪",
+                "聲音場景",
+                "聲音",
+                "背景音",
+                "背景聲"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "5ff6d368c1f3c500015c0106",
+              "name": "助眠",
+              "en": [],
+              "zh-Hans": [
+                "助眠",
+                "睡眠",
+                "睡",
+                "睡觉",
+                "睡前",
+                "睡眠质量",
+                "催眠"
+              ],
+              "zh-Hant": [
+                "助眠",
+                "睡眠",
+                "睡",
+                "睡覺",
+                "睡前",
+                "睡眠質量",
+                "催眠"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "5ff7fe020f49ca0001ddb5a2",
+              "name": "困",
+              "en": [],
+              "zh-Hans": [
+                "困",
+                "困倦",
+                "好困",
+                "困了"
+              ],
+              "zh-Hant": [
+                "困",
+                "睏倦",
+                "好睏",
+                "困了"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            },
+            {
+              "id": "600930953b14c60001578275",
+              "name": "安静",
+              "en": [],
+              "zh-Hans": [
+                "安静"
+              ],
+              "zh-Hant": [
+                "安靜"
+              ],
+              "ja": [],
+              "es": [],
+              "ko": [],
+              "ru": []
+            }
+          ],
+          "stats": {
+            "using_people_count": 0,
+            "using_people_avatars": null,
+            "download_count": 0
+          },
+          "background": {}
+        },
+        "scene_id": "5a560d113ea0bf00086a36a8"
+      }
+    ],
+    "video_cover_key": "",
+    "video_cover_url": "",
+    "video_cover_demo_url": "",
+    "video_cover_primary_color": "",
+    "simple_tags": [],
+    "resource": {
+      "guid": "5fbdfa18fd5de000069bc0db",
+      "name": "声音场景 - 海边篝火 - 音频资源",
+      "hash": "",
+      "hash_key": "",
+      "duration": 0,
+      "size_in_bytes": 0,
+      "status": "published",
+      "has_white_noise": true,
+      "has_human_voice": false,
+      "is_default_duration": false,
+      "updated_at": 0,
+      "created_at": 0
+    },
+    "purchase_info": {
+      "product_id": "",
+      "alias": null,
+      "price": 0,
+      "description": ""
+    },
+    "name": {
+      "en": "Seaside Campfire",
+      "zh-Hans": "海边篝火",
+      "zh-Hant": "海邊篝火",
+      "ja": "海辺のかがり火",
+      "ko": "해변의 모닥불"
+    },
+    "description": {},
+    "duration_description": {},
+    "image": "https://pics.tide.moreless.io/scene_covers/FpIuQnkalsU62kXCQrABHIjmpLbY",
+    "primary_color": "93,65,61,1",
+    "fresh_until": 0,
+    "style": {
+      "show_detail_page": false,
+      "size": ""
+    },
+    "status": "published",
+    "trial_started_local_time": "",
+    "trial_ended_local_time": "",
+    "access": [],
+    "updated_at": 1608087276,
+    "created_at": 1606285848,
+    "search_annotations": [
+      {
+        "id": "5ff6c698c1f3c500015c0104",
+        "name": "白噪音",
+        "en": [],
+        "zh-Hans": [
+          "白噪音",
+          "白噪",
+          "声音场景",
+          "声音",
+          "背景音",
+          "背景声"
+        ],
+        "zh-Hant": [
+          "白噪音",
+          "白噪",
+          "聲音場景",
+          "聲音",
+          "背景音",
+          "背景聲"
+        ],
+        "ja": [],
+        "es": [],
+        "ko": [],
+        "ru": []
+      },
+      {
+        "id": "600930953b14c60001578275",
+        "name": "安静",
+        "en": [],
+        "zh-Hans": [
+          "安静"
+        ],
+        "zh-Hant": [
+          "安靜"
+        ],
+        "ja": [],
+        "es": [],
+        "ko": [],
+        "ru": []
+      }
+    ],
+    "stats": {
+      "using_people_count": 0,
+      "using_people_avatars": null,
+      "download_count": 0
+    },
+    "background": {}
+  },
+  {
+    "id": "6231ec60fade9e00010a4577",
+    "created_at": 1647438944,
+    "updated_at": 1653460944,
+    "category": "alarm",
+    "image": "https://pics.tide.moreless.io/scenes/FqbBL4F8zR-ENRIlz5XzmzUvHJuv",
+    "name": {
+      "en": "Light",
+      "zh-Hans": "光",
+      "zh-Hant": "光",
+      "ja": "光",
+      "ko": "빛"
+    },
+    "resource": {
+      "guid": "0180945f-1ec2-4661-9da7-896d3cd04423",
+      "name": "",
+      "hash": "FlWz4j5DahIfzZaYGh85a8D1IAJL",
+      "hash_key": "sounds/FlWz4j5DahIfzZaYGh85a8D1IAJL",
+      "bundle": "alarm_1.m4a",
+      "demo_sound_url": null,
+      "duration": 3000,
+      "has_white_noise": false,
+      "has_human_voice": false,
+      "speaker_id": "",
+      "participant_ids": [],
+      "created_at": 0,
+      "speaker": null,
+      "participants": null
+    }
+  },
+  {
+    "id": "6018b5286a15220001c533a0",
+    "created_at": 1515078864,
+    "updated_at": 1545808042,
+    "category": "wakeup",
+    "image": "https://pics.tide.moreless.io/scenes/Fn4P-IubimRfcyEddoCenpmw_Dq3",
+    "thumbnail": "preset_wakeup_forest",
+    "demo_sound_url": "https://pics.tide.moreless.io/demo_sounds/Fv2GJZlXNCUboqKcBipW5nPIXwwM",
+    "icon_url": "preset_wakeup_forest",
+    "primary_color": "23,69,62,0.9",
+    "name": {
+      "en": "Norwegian Woods",
+      "zh-Hans": "挪威的森林",
+      "zh-Hant": "挪威的森林",
+      "ja": "ノルウェーの森",
+      "es": "Bosque de Noruega",
+      "ko": "노르웨이의 숲",
+      "ru": "Норвежские леса"
+    },
+    "description": {
+      "en": "Parallel Timespace",
+      "zh-Hans": "平行时空",
+      "zh-Hant": "平行時空",
+      "ja": "パラレルワールド"
+    },
+    "sub_title": {
+      "en": "59°55'N, 10°45'E",
+      "zh-Hans": "59°55'N, 10°45'E",
+      "zh-Hant": "59°55'N, 10°45'E",
+      "ja": "59°55'N, 10°45'E",
+      "es": "59°55'N, 10°45'E",
+      "ko": "59°55'N, 10°45'E",
+      "ru": "59°55'N, 10°45'E"
+    },
+    "resource": {
+      "guid": "6018b5176a15220001c5339e",
+      "name": "",
+      "hash": "FmJ-MauuaeqKV_az2hBWi45iYjpK",
+      "hash_key": "sounds/FmJ-MauuaeqKV_az2hBWi45iYjpK",
+      "bundle": "preset_wakeup_forest.m4a",
+      "demo_sound_url": null,
+      "duration": 1500,
+      "has_white_noise": true,
+      "has_human_voice": false,
+      "speaker_id": "",
+      "participant_ids": [],
+      "created_at": 0,
+      "speaker": null,
+      "participants": null
+    }
+  }
+]

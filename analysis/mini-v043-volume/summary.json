@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "device": "25079RPDCC / Android 16",
+  "version": "0.4.3-mini / 9",
+  "ui_steps_passed": 11,
+  "native_stereo_gain_steps_passed": 11,
+  "drag_snap": "37% -> 40%; 33% -> 30%",
+  "restart_persisted_percent": 30,
+  "zero_gain_start_switch_resume": "passed",
+  "system_volume_unchanged": true,
+  "alarm_preferences_unchanged": true,
+  "final_coefficient_percent": 100,
+  "test_playback_stopped": true,
+  "limits": [
+    "no nonzero audible playback/listening",
+    "no TalkBack/small-window/overnight/alarm tests",
+    "no system service-reclamation recovery test"
+  ]
+}

@@ -13,6 +13,7 @@ sources=sorted((root/'app/src/main/java/io/moreless/tide/rebuild/core').glob('*.
 subprocess.run(['javac','-d',str(out),*map(str,sources),*map(str,sorted((root/'tests').glob('*.java')))],check=True)
 subprocess.run(['java','-cp',str(out),'CoreTest'],check=True)
 subprocess.run(['java','-cp',str(out),'SleepTest'],check=True)
+subprocess.run(['java','-cp',str(out),'PlaybackVolumeTest'],check=True)
 assets=root/'app/src/main/assets'
 for item in json.loads((root/'ASSET_PROVENANCE.json').read_text()):
     actual=hashlib.sha256((assets/item['path']).read_bytes()).hexdigest()

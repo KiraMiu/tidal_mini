@@ -1,0 +1,134 @@
+[
+  {
+    "step": 0,
+    "audioOutput": [
+      0.0,
+      0.0
+    ],
+    "audioTrack": [
+      0.0,
+      0.0
+    ],
+    "paused": true
+  },
+  {
+    "step": 1,
+    "audioOutput": [
+      0.1,
+      0.1
+    ],
+    "audioTrack": [
+      0.1,
+      0.1
+    ],
+    "paused": true
+  },
+  {
+    "step": 2,
+    "audioOutput": [
+      0.2,
+      0.2
+    ],
+    "audioTrack": [
+      0.2,
+      0.2
+    ],
+    "paused": true
+  },
+  {
+    "step": 3,
+    "audioOutput": [
+      0.3,
+      0.3
+    ],
+    "audioTrack": [
+      0.3,
+      0.3
+    ],
+    "paused": true
+  },
+  {
+    "step": 4,
+    "audioOutput": [
+      0.4,
+      0.4
+    ],
+    "audioTrack": [
+      0.4,
+      0.4
+    ],
+    "paused": true
+  },
+  {
+    "step": 5,
+    "audioOutput": [
+      0.5,
+      0.5
+    ],
+    "audioTrack": [
+      0.5,
+      0.5
+    ],
+    "paused": true
+  },
+  {
+    "step": 6,
+    "audioOutput": [
+      0.6,
+      0.6
+    ],
+    "audioTrack": [
+      0.6,
+      0.6
+    ],
+    "paused": true
+  },
+  {
+    "step": 7,
+    "audioOutput": [
+      0.7,
+      0.7
+    ],
+    "audioTrack": [
+      0.7,
+      0.7
+    ],
+    "paused": true
+  },
+  {
+    "step": 8,
+    "audioOutput": [
+      0.8,
+      0.8
+    ],
+    "audioTrack": [
+      0.8,
+      0.8
+    ],
+    "paused": true
+  },
+  {
+    "step": 9,
+    "audioOutput": [
+      0.9,
+      0.9
+    ],
+    "audioTrack": [
+      0.9,
+      0.9
+    ],
+    "paused": true
+  },
+  {
+    "step": 10,
+    "audioOutput": [
+      1.0,
+      1.0
+    ],
+    "audioTrack": [
+      1.0,
+      1.0
+    ],
+    "paused": true
+  }
+]

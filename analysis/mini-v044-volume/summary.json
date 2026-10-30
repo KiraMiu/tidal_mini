@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "target": 0.123,
+      "savedGain": 0.123,
+      "label": "12.3%"
+    },
+    {
+      "target": 0.375,
+      "savedGain": 0.3752,
+      "label": "37.52%"
+    },
+    {
+      "target": 0.687,
+      "savedGain": 0.6867,
+      "label": "68.67%"
+    }
+  ],
+  "fractionalNativeGain": [
+    [
+      0.3752,
+      0.3752
+    ],
+    [
+      0.3752,
+      0.3752
+    ]
+  ],
+  "reopenedLabel": "37.52%",
+  "legacy100PercentPreserved": true,
+  "finalGain": 1.0,
+  "systemVolumesAndAlarmUnchanged": true,
+  "playbackStopped": true
+}

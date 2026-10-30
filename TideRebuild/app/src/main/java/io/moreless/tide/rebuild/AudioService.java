@@ -8,11 +8,19 @@ import android.media.session.*;
 import android.os.*;
 import android.provider.Settings;
 import io.moreless.tide.rebuild.core.PlaybackIntent;
+import io.moreless.tide.rebuild.core.PlaybackVolume;
 
 /** Local-only foreground player. No accounts, network endpoints or vendor SDKs. */
 public final class AudioService extends Service {
     public static boolean running;
     public static SharedPreferences state(Context c){return c.createDeviceProtectedStorageContext().getSharedPreferences("sleep_audio",MODE_PRIVATE);}
+    private static final String VOLUME_STEP="volumeStep";
+    private static final String VOLUME_GAIN="volumeGain";
+    public static float volumeGain(Context c){
+        SharedPreferences prefs=state(c);
+        return prefs.contains(VOLUME_GAIN)?PlaybackVolume.normalize(prefs.getFloat(VOLUME_GAIN,PlaybackVolume.DEFAULT_GAIN)):PlaybackVolume.legacyGain(prefs.getInt(VOLUME_STEP,10));
+    }
+    public static void setVolumeGain(Context c,float gain){state(c).edit().putFloat(VOLUME_GAIN,PlaybackVolume.normalize(gain)).apply();}
     public static void stopPlayback(Context c){state(c).edit().putBoolean("wanted",false).putString("status","stopped").commit();c.stopService(new Intent(c,AudioService.class));}
     public static void play(Context c,String title,String file){Intent i=new Intent(c,AudioService.class).setAction(PLAY).putExtra("title",title).putExtra("file",file);if(Build.VERSION.SDK_INT>=26)c.startForegroundService(i);else c.startService(i);}
     private int boot(){return Settings.Global.getInt(getContentResolver(),Settings.Global.BOOT_COUNT,-1);}
@@ -24,6 +32,10 @@ public final class AudioService extends Service {
     private AudioFocusRequest focus;
     private String title="声音场景";
     private boolean ready;
+    private SharedPreferences preferences;
+    private final SharedPreferences.OnSharedPreferenceChangeListener volumeListener=(prefs,key)->{
+        if(VOLUME_GAIN.equals(key) || VOLUME_STEP.equals(key))applyVolume();
+    };
     private final PlaybackIntent playback=new PlaybackIntent();
     private final BroadcastReceiver noisy=new BroadcastReceiver(){
         @Override public void onReceive(Context context,Intent intent){pauseByUser();}
@@ -35,6 +47,7 @@ public final class AudioService extends Service {
     };
     @Override public void onCreate() {
         super.onCreate();running=true;audio=(AudioManager)getSystemService(AUDIO_SERVICE);
+        preferences=state(this);preferences.registerOnSharedPreferenceChangeListener(volumeListener);
         if(Build.VERSION.SDK_INT>=26) {
             ((NotificationManager)getSystemService(NOTIFICATION_SERVICE)).createNotificationChannel(new NotificationChannel("audio","声音播放",NotificationManager.IMPORTANCE_LOW));
             focus=new AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN).setAudioAttributes(attributes()).setOnAudioFocusChangeListener(listener).build();
@@ -48,6 +61,7 @@ public final class AudioService extends Service {
     }
     private AudioAttributes attributes(){return new AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_MEDIA).setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).build();}
     private boolean requestFocus(){return (Build.VERSION.SDK_INT>=26?audio.requestAudioFocus(focus):audio.requestAudioFocus(listener,AudioManager.STREAM_MUSIC,AudioManager.AUDIOFOCUS_GAIN))==AudioManager.AUDIOFOCUS_REQUEST_GRANTED;}
+    private void applyVolume(){if(player!=null && ready){float gain=volumeGain(this);player.setVolume(gain,gain);}}
     @Override public int onStartCommand(Intent intent,int flags,int id) {
         new SleepStore(this); // Upgrade persisted preview choices before any sticky/media resume.
         if(intent==null){
@@ -75,8 +89,8 @@ public final class AudioService extends Service {
             player.setWakeMode(this,PowerManager.PARTIAL_WAKE_LOCK);
             try(AssetFileDescriptor fd=getAssets().openFd("sounds/"+file)){player.setDataSource(fd.getFileDescriptor(),fd.getStartOffset(),fd.getLength());}
             player.setLooping(true);
-            player.setOnPreparedListener(p->{if(p!=player)return;ready=true;if(!playback.wantsPlayback()){update(false);return;}if(requestFocus()){p.start();update(true);}else{update(false);android.widget.Toast.makeText(this,"暂时无法获得音频焦点，请稍后继续播放",1).show();}});
-            player.setOnErrorListener((p,what,extra)->{playback.pause();persist("error");android.widget.Toast.makeText(this,"声音播放失败："+what,1).show();stopSelf();return true;});
+            player.setOnPreparedListener(p->{if(p!=player)return;ready=true;applyVolume();if(!playback.wantsPlayback()){update(false);return;}if(requestFocus()){p.start();update(true);}else{update(false);android.widget.Toast.makeText(this,"暂时无法获得音频焦点，请稍后继续播放",1).show();}});
+            player.setOnErrorListener((p,what,extra)->{ready=false;playback.pause();persist("error");android.widget.Toast.makeText(this,"声音播放失败："+what,1).show();stopSelf();return true;});
             player.prepareAsync();
         } catch(Exception e){playback.pause();persist("error");android.widget.Toast.makeText(this,"无法播放："+e.getMessage(),1).show();stopSelf();return START_NOT_STICKY;}
         return START_STICKY;
@@ -104,8 +118,8 @@ public final class AudioService extends Service {
     }
     private void pause(){if(player!=null && ready){player.pause();update(false);}}
     private void pauseByUser(){playback.pause();persist("paused");pause();}
-    private void resume(){playback.play();if(player!=null && ready && requestFocus()){player.start();update(true);}}
+    private void resume(){playback.play();if(player!=null && ready && requestFocus()){applyVolume();player.start();update(true);}}
     private void releasePlayer(){ready=false;if(player!=null){player.release();player=null;}}
-    @Override public void onDestroy(){running=false;unregisterReceiver(noisy);playback.pause();releasePlayer();if(Build.VERSION.SDK_INT>=26)audio.abandonAudioFocusRequest(focus);else audio.abandonAudioFocus(listener);session.release();stopForeground(true);super.onDestroy();}
+    @Override public void onDestroy(){running=false;preferences.unregisterOnSharedPreferenceChangeListener(volumeListener);unregisterReceiver(noisy);playback.pause();releasePlayer();if(Build.VERSION.SDK_INT>=26)audio.abandonAudioFocusRequest(focus);else audio.abandonAudioFocus(listener);session.release();stopForeground(true);super.onDestroy();}
     @Override public IBinder onBind(Intent intent){return null;}
 }

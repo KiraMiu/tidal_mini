@@ -1,0 +1,28 @@
+{
+  "alarm": {
+    "phase": "off",
+    "sleepStarted": "1793205783049",
+    "silentTest": "false",
+    "sceneFile": "liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+    "playingRingtone": "Dewdrops",
+    "sceneName": "雨天",
+    "ringtoneName": "Dewdrops",
+    "ringUntil": "0",
+    "trigger": "0",
+    "minute": "30",
+    "token": "",
+    "ringtoneKind": "system",
+    "hour": "8",
+    "round": "1",
+    "ringSource": "selected",
+    "ringPlayback": "playing",
+    "ringtoneUri": "content://media/internal/audio/media/10?title=Dewdrops&canonical=1"
+  },
+  "audio": {
+    "file": "liBzOYK1Pk1_5dwWAmDXsugayl_f.m4a",
+    "wanted": "false",
+    "title": "雨天",
+    "boot": "10",
+    "status": "stopped"
+  }
+}

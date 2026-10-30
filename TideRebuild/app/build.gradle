@@ -6,8 +6,8 @@ android {
         applicationId 'io.moreless.tide.rebuild'
         minSdk 24
         targetSdk 34
-        versionCode 8
-        versionName '0.4.2-mini'
+        versionCode 11
+        versionName '0.4.5-mini'
     }
     compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
     androidResources { noCompress += ['m4a', 'mp3'] }

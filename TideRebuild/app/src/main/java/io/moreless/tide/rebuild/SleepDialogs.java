@@ -6,6 +6,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.*;
 import android.widget.*;
 import java.util.function.IntConsumer;
+import io.moreless.tide.rebuild.core.PlaybackVolume;
 
 /** App-owned settings sheets; system permission/file-picker windows remain system UI. */
 final class SleepDialogs {
@@ -40,5 +41,37 @@ final class SleepDialogs {
     static void message(Activity a,String title,String message,String[] labels,Runnable[] actions){
         SleepDialogs sheet=new SleepDialogs(a,title);TextView text=SleepUi.text(a,sheet.body,message,14,0xffcbd6e5);text.setGravity(Gravity.START);text.setLineSpacing(SleepUi.dp(a,4),1);text.setPadding(SleepUi.dp(a,8),SleepUi.dp(a,10),SleepUi.dp(a,8),SleepUi.dp(a,20));
         for(int i=0;i<labels.length;i++)sheet.row(labels[i],actions[i]);sheet.show();
+    }
+    static void backgroundVolume(Activity a){
+        SleepDialogs sheet=new SleepDialogs(a,"背景音乐音量");
+        TextView value=SleepUi.text(a,sheet.body,"",34,0xff83e5ba);
+        SeekBar slider=new SeekBar(a);slider.setMax(PlaybackVolume.MAX_PROGRESS);slider.setKeyProgressIncrement(100);
+        slider.setPadding(SleepUi.dp(a,16),0,SleepUi.dp(a,16),0);
+        slider.setProgressTintList(android.content.res.ColorStateList.valueOf(0xff83e5ba));
+        slider.setProgressBackgroundTintList(android.content.res.ColorStateList.valueOf(0x667d93ad));
+        slider.setThumbTintList(android.content.res.ColorStateList.valueOf(0xffb4f4d7));
+        slider.setTickMark(null);
+        slider.setSplitTrack(false);slider.setProgress(PlaybackVolume.progress(AudioService.volumeGain(a)));
+        slider.setContentDescription("背景音乐音量");
+        value.setText(PlaybackVolume.percent(PlaybackVolume.gain(slider.getProgress())));
+        if(android.os.Build.VERSION.SDK_INT>=30)slider.setStateDescription(value.getText());
+        sheet.body.addView(slider,new LinearLayout.LayoutParams(-1,SleepUi.dp(a,48)));
+        LinearLayout labels=new LinearLayout(a);labels.setPadding(SleepUi.dp(a,16),0,SleepUi.dp(a,16),0);sheet.body.addView(labels);
+        String[] marks={"0%","50%","100%"};
+        for(int i=0;i<marks.length;i++){
+            TextView label=new TextView(a);label.setText(marks[i]);label.setTextColor(0xffcbd6e5);label.setTextSize(12);
+            label.setGravity(i==0?Gravity.START:i==2?Gravity.END:Gravity.CENTER);labels.addView(label,new LinearLayout.LayoutParams(0,-2,1));
+        }
+        SleepUi.text(a,sheet.body,"默认 100%，拖动即可调节并自动保存。\n仅影响背景音乐；0% 为静音。",14,0xffcbd6e5);
+        slider.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){
+            public void onProgressChanged(SeekBar bar,int progress,boolean fromUser){
+                float gain=PlaybackVolume.gain(progress);value.setText(PlaybackVolume.percent(gain));
+                if(android.os.Build.VERSION.SDK_INT>=30)bar.setStateDescription(value.getText());
+                if(fromUser)AudioService.setVolumeGain(a,gain);
+            }
+            public void onStartTrackingTouch(SeekBar bar){sheet.body.getParent().requestDisallowInterceptTouchEvent(true);}
+            public void onStopTrackingTouch(SeekBar bar){sheet.body.getParent().requestDisallowInterceptTouchEvent(false);}
+        });
+        sheet.show();
     }
 }

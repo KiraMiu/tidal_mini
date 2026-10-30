@@ -132,7 +132,7 @@ public final class SleepActivity extends Activity {
         }catch(Exception e){Toast.makeText(this,"声音加载失败："+e.getMessage(),1).show();}
     }
     private void settings(){
-        String[] options={"闹钟铃声","调整系统闹钟音量","精确闹钟权限","锁屏全屏提醒","通知权限","后台省电与自启动","厂商锁屏与后台弹出权限"};
+        String[] options={"闹钟铃声","调整系统闹钟音量","精确闹钟权限","锁屏全屏提醒","通知权限","后台省电与自启动","厂商锁屏与后台弹出权限","背景音乐音量 · "+io.moreless.tide.rebuild.core.PlaybackVolume.percent(AudioService.volumeGain(this))};
         SleepDialogs.choices(this,"设置",options,index->{
             switch(index){
                 case 0:ringtoneSettings();break;
@@ -142,6 +142,7 @@ public final class SleepActivity extends Activity {
                 case 4:open(new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).putExtra(Settings.EXTRA_APP_PACKAGE,getPackageName()));break;
                 case 5:backgroundSettings();break;
                 case 6:vendorSettings();break;
+                case 7:SleepDialogs.backgroundVolume(this);break;
             }
         });
     }
